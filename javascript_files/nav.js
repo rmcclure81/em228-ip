@@ -3,7 +3,7 @@ document.write('<div class="dropdown" id="home">');
 document.write(
   '<button class="btn_dropdown_toggle" type="button" data-toggle="dropdown">'
 );
-document.write('<a href="index.html" class="links">Home</a>');
+document.write('<a href="/" class="links">Home</a>');
 document.write('</button>');
 document.write('</div>');
 
