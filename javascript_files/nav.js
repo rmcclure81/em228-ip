@@ -127,7 +127,9 @@ document.write(
 );
 document.write('</button>');
 document.write('<div class="dropdownContent">');
-document.write('<a href="../html/art.html" class="links">Art Collection</a>');
+document.write(
+  '<a href="https://rmcclure81.github.io/em228-ip/html/art.html" class="links">Art Collection</a>'
+);
 document.write('<br /><br />');
 document.write(
   '<a href="https://rmcclure81.github.io/em228-ip/html/verses.html" class="links">Bible Verse Collection</a>'
