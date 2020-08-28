@@ -1,4 +1,17 @@
-function printTitle() {
+// function printTitle() {
+// if (window.XMLHttpRequest) {
+//   // Code for IE7+, Firefox, Chrome, Opera, Safari
+//   xmlhttp = new XMLHttpRequest();
+// } else {
+//   // Code for IE5, IE6
+//   xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
+// }
+
+var art = '../xml_data_files/art2.xml',
+  arthtml = '/em228-ip/html/art2.html',
+  artxsl = '/em228-ip/xsl_files/art2.xslt';
+
+if (window.location.pathname == arthtml || window.location.pathname == artxsl) {
   // if (window.XMLHttpRequest) {
   //   // Code for IE7+, Firefox, Chrome, Opera, Safari
   //   xmlhttp = new XMLHttpRequest();
@@ -6,35 +19,19 @@ function printTitle() {
   //   // Code for IE5, IE6
   //   xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
   // }
-
-  var art = '../xml_data_files/art2.xml',
-    arthtml = '/em228-ip/html/art2.html',
-    artxsl = '/em228-ip/xsl_files/art2.xslt';
-
-  if (
-    window.location.pathname == arthtml ||
-    window.location.pathname == artxsl
-  ) {
-    // if (window.XMLHttpRequest) {
-    //   // Code for IE7+, Firefox, Chrome, Opera, Safari
-    //   xmlhttp = new XMLHttpRequest();
-    // } else {
-    //   // Code for IE5, IE6
-    //   xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
-    // }
-    // xmlhttp.open('GET', 'art', false);
-    // xmlhttp.send();
-    // xmlDoc = xmlhttp.responseXML;
-    // document.write('<span>');
-    document.getElementById('headingTitle').innerHTML = 'Art Collection';
-    // document.write(
-    //   'Art Collection'
-    //   xmlDoc.getElementsByTagName('description')[0].childNodes[0].nodeValue
-    // );
-    // document.write('</span>');
-  } else {
-    document.getElementById('headingTitle').innerHTML = 'Wrong Path';
-  }
+  // xmlhttp.open('GET', 'art', false);
+  // xmlhttp.send();
+  // xmlDoc = xmlhttp.responseXML;
+  // document.write('<span>');
+  document.getElementById('headingTitle').innerHTML = 'Art Collection';
+  // document.write(
+  //   'Art Collection'
+  //   xmlDoc.getElementsByTagName('description')[0].childNodes[0].nodeValue
+  // );
+  // document.write('</span>');
+} else {
+  document.getElementById('headingTitle').innerHTML = 'Wrong Path';
+  // }
   // document.getElementById('title').innerHTML = 'Art Collection';
 
   // xmlhttp.send();
