@@ -8,8 +8,8 @@ function printTitle() {
   }
 
   var art = '../xml_data_files/art2.xml',
-    arthtml = '/html/art2.html',
-    artxsl = '/xsl_files/art2.xslt';
+    arthtml = 'https://rmcclure81.github.io/em228-ip/html/art2.html',
+    artxsl = 'https://rmcclure81.github.io/em228-ip/xsl_files/art2.xslt';
 
   if (
     window.location.pathname == arthtml ||
@@ -21,7 +21,7 @@ function printTitle() {
   xmlDoc = xmlhttp.responseXML;
   document.write('<span>');
   document.write(
-    xmlDoc.getElementsByTagName('orientation')[0].childNodes[0].nodeValue
+    xmlDoc.getElementsByTagName('description')[0].childNodes[0].nodeValue
   );
   document.write('</span>');
 }
