@@ -11,7 +11,7 @@
             <body style="background-color:#90ee90;">
                 <header>
                     <div id="heading1">
-                        <a href="https://rmcclure81.github.io/em228-ip/index.html">
+                        <a href="../html/index.html">
                             <img src="../images/favicon.ico" alt="Logo" class="logo" />
                         </a>
                         <span>Bible Verses Collection</span>
