@@ -23,7 +23,7 @@ function getDescription() {
   //** Variable declarations **/
   var art = '../xml_data_files/art.xml',
     artHTML = '/em228-ip/html/art2.html',
-    artXSL = '/em228-ip/xsl_files/art2.xml';
+    artXSL = '/em228-ip/xml_data_files/art2.xml';
   var family = '../xml_data_files/family.xml',
     familyHTML = '/em228-ip/html/family.html',
     familyXSL = '/em228-ip/xsl_files/family.xslt';
