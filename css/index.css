@@ -1,0 +1,144 @@
+#art {
+  margin: 4rem auto;
+}
+
+body {
+  background-color: #90ee90;
+  margin-top: 3rem;
+  overflow-x: hidden;
+}
+
+.btn_dropdown_toggle {
+  padding: 5px;
+  background-color: #90ee90;
+  font-weight: bold;
+  color: green;
+  border: none;
+  font-size: large;
+}
+
+.caret {
+  font-size: small;
+}
+
+.cite {
+  margin-bottom: 3rem;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.container {
+  display: grid;
+  text-align: center;
+}
+
+.descriptionContainer {
+  display: block;
+  text-align: center;
+}
+
+#description {
+  font-size: 1.3rem;
+  margin: 0 auto;
+  text-align: center;
+  width: 30%;
+}
+
+.descriptionHeading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  font-size: large;
+  background-color: #90ee90;
+}
+
+#family {
+  margin: 4rem auto;
+}
+
+header {
+  display: grid;
+}
+
+#heading1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  grid-column: 1 / span 4;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+#home {
+  grid-column: 1;
+}
+
+.links {
+  text-decoration: none;
+  color: green;
+}
+
+.logo {
+  display: inline;
+  margin-right: 3rem;
+  margin-left: -9rem;
+  /* width: 75px;
+  height: 75px; */
+  border-radius: 25%;
+}
+
+#movies {
+  margin: 4rem 6rem 1rem 6rem;
+}
+
+#music {
+  margin: 4rem auto 1rem auto;
+}
+
+.navbar {
+  display: grid;
+  padding: 10px;
+  width: 90%;
+  margin: 1.5rem auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+#verses {
+  margin: 4rem 6rem 1rem 6rem;
+}
+
+#w1 {
+  grid-column: 2;
+}
+
+#w2 {
+  grid-column: 3;
+}
+
+#w3 {
+  grid-column: 4;
+}
+
+#w4 {
+  grid-column: 5;
+}
+
+#w5 {
+  grid-column: 6;
+}

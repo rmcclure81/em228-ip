@@ -1,1 +1,2 @@
-# em228-ip
+# em228
+Files for EM228 project

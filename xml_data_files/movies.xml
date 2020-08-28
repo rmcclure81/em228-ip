@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<movieList>
+    <description>MOVIES</description>
+    <movie id="01">
+        <title>Timeline</title>
+        <rating>PG-13</rating>
+        <runtime>1h 56min</runtime>
+        <date>
+            <year>2003</year>
+            <month>November</month>
+            <day>26</day>
+        </date>
+        <genreList>
+            <genre name="Action">Action</genre>
+            <genre name="Adventure">Adventure</genre>
+            <genre name="Sci-Fi">Sci-Fi</genre>
+        </genreList>
+        <plot>A group of archaeologists become trapped in the past when they go there to retrieve a friend. The group must survive in fourteenth century France before they can escape back to the twenty-first century.</plot>
+    </movie>
+    <movie id="02">
+        <title>WWJD: What Would Jesus Do?</title>
+        <rating>PG</rating>
+        <runtime>1h 34min</runtime>
+        <date>
+            <year>2010</year>
+            <month>May</month>
+            <day>22</day>
+        </date>
+        <genreList>
+            <genre name="Christian">Christian</genre>
+            <genre name="Drama">Drama</genre>
+        </genreList>
+        <plot>A moving and thought provoking story about a group of Americans - a singer, a newspaper editor, a pastor &amp; a real estate mogul who vow to walk "in the steps of Jesus." Every day and every decision becomes a turning point in their lives as they must ask themselves..."What Would Jesus Do?"</plot>
+    </movie>
+    <movie id="03">
+        <title>Unplanned</title>
+        <rating>R</rating>
+        <runtime>1h 49min</runtime>
+        <date>
+            <year>2019</year>
+            <month>March</month>
+            <day>29</day>
+        </date>
+        <genreList>
+            <genre name="Biography">Biography</genre>
+            <genre name="Drama">Drama</genre>
+        </genreList>
+        <plot>As one of the youngest Planned Parenthood clinic directors in the nation, Abby Johnson was involved in upwards of 22,000 abortions and counseled countless women on their reproductive choices. Her passion surrounding a woman's right to choose led her to become a spokesperson for Planned Parenthood, fighting to enact legislation for the cause she so deeply believed in. Until the day she saw something that changed everything.</plot>
+    </movie>
+    <movie id="04">
+        <title>The Princess Bride</title>
+        <rating>PG</rating>
+        <runtime>1h 38min</runtime>
+        <date>
+            <year>1987</year>
+            <month>October</month>
+            <day>09</day>
+        </date>
+        <genreList>
+            <genre name="Adventure">Adventure</genre>
+            <genre name="Family">Family</genre>
+            <genre name="Fantasy">Fantasy</genre>
+        </genreList>
+        <plot>While home sick in bed, a young boy's grandfather reads him the story of a farmboy-turned-pirate who encounters numerous obstacles, enemies and allies in his quest to be reunited with his true love.</plot>
+    </movie>
+    <movie id="05">
+        <title>The Passion of the Christ</title>
+        <rating>R</rating>
+        <runtime>2h 7min</runtime>
+        <date>
+            <year>2004</year>
+            <month>February</month>
+            <day>25</day>
+        </date>
+        <genreList>
+            <genre name="Christian">Christian</genre>
+            <genre name="Drama">Drama</genre>
+        </genreList>
+        <plot>Depicts the final twelve hours in the life of Jesus of Nazareth, on the day of his crucifixion in Jerusalem.</plot>
+    </movie>
+    <movie id="06">
+        <title>Idiocracy</title>
+        <rating>R</rating>
+        <runtime>1h 24min</runtime>
+        <date>
+            <year>2006</year>
+            <month>January</month>
+            <day>25</day>
+        </date>
+        <genreList>
+            <genre name="Adventure">Adventure</genre>
+            <genre name="Comedy">Comedy</genre>
+            <genre name="Sci-Fi">Sci-Fi</genre>
+        </genreList>
+        <plot>Private Joe Bauers, the definition of "average American", is selected by the Pentagon to be the guinea pig for a top-secret hibernation program. Forgotten, he awakes five centuries in the future. He discovers a society so incredibly dumbed down that he's easily the most intelligent person alive.</plot>
+    </movie>
+    <movie id="07">
+        <title>The Man</title>
+        <rating>PG-13</rating>
+        <runtime>1h 23min</runtime>
+        <date>
+            <year>2005</year>
+            <month>September</month>
+            <day>09</day>
+        </date>
+        <genreList>
+            <genre name="Action">Action</genre>
+            <genre name="Comedy">Comedy</genre>
+            <genre name="Crime">Crime</genre>
+        </genreList>
+        <plot>Special Agent Derrick Vann is a man out to get the man who killed his partner, but a case of mistaken identity leads him to Andy Fiddler, a salesman with too many questions and a knack of getting in Vann's way.</plot>
+    </movie>
+    <movie id="08">
+        <title>Hacksaw Ridge</title>
+        <rating>R</rating>
+        <runtime>2h 19min</runtime>
+        <date>
+            <year>2016</year>
+            <month>November</month>
+            <day>04</day>
+        </date>
+        <genreList>
+            <genre name="Biography">Biography</genre>
+            <genre name="Drama">Drama</genre>
+            <genre name="History">History</genre>
+        </genreList>
+        <plot>World War II American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people, and becomes the first man in American history to receive the Medal of Honor without firing a shot.</plot>
+    </movie>
+    <movie id="09">
+        <title>Taken</title>
+        <rating>PG-13</rating>
+        <runtime>1h 30min</runtime>
+        <date>
+            <year>2008</year>
+            <month>January</month>
+            <day>30</day>
+        </date>
+        <genreList>
+            <genre name="Action">Action</genre>
+            <genre name="Thriller">Thriller</genre>
+        </genreList>
+        <plot>A retired CIA agent travels across Europe and relies on his old skills to save his estranged daughter, who has been kidnapped while on a trip to Paris.</plot>
+    </movie>
+    <movie id="10">
+        <title>Paul: Apostle of Christ</title>
+        <rating>PG-13</rating>
+        <runtime>1h 48min</runtime>
+        <date>
+            <year>2018</year>
+            <month>March</month>
+            <day>23</day>
+        </date>
+        <genreList>
+            <genre name="Adventure">Adventure</genre>
+            <genre name="Christian">Christian</genre>
+            <genre name="Drama">Drama</genre>
+        </genreList>
+        <plot>Luke travels Roma looking for apostle Paul, turned in Nero's prisoner, to tell his story before his execution.</plot>
+    </movie>
+    <movie id="11">
+        <title>Tag</title>
+        <rating>R</rating>
+        <runtime>1h 40min</runtime>
+        <date>
+            <year>2018</year>
+            <month>June</month>
+            <day>15</day>
+        </date>
+        <genreList>
+            <genre name="Action">Action</genre>
+            <genre name="Comedy">Comedy</genre>
+        </genreList>
+        <plot>A small group of former classmates organize an elaborate, annual game of tag that requires some to travel all over the country.</plot>
+    </movie>
+    <movie id="12">
+        <title>Death at a Funeral</title>
+        <rating>R</rating>
+        <runtime>1h 30min</runtime>
+        <date>
+            <year>2007</year>
+            <month>September</month>
+            <day>07</day>
+        </date>
+        <genreList>
+            <genre name="Comedy">Comedy</genre>
+        </genreList>
+        <plot>Chaos ensues when a man tries to expose a dark secret regarding a recently deceased patriarch of a dysfunctional British family.</plot>
+    </movie>
+    <movie id="13">
+        <title>Palau</title>
+        <rating>Not Rated</rating>
+        <runtime>2h 0min</runtime>
+        <date>
+            <year>2019</year>
+            <month>August</month>
+            <day>06</day>
+        </date>
+        <genreList>
+            <genre name="Biography">Biography</genre>
+            <genre name="Christian">Christian</genre>
+            <genre name="Drama">Drama</genre>
+        </genreList>
+        <plot>As a young man, a passion and vision to proclaim the Good News of Jesus to all the nations was planted deep in Luis Palau's heart. Amidst both seemingly insurmountable struggles and remarkable miracles, Luis never lost sight of his calling. His extraordinary story will bring hope to the masses and encourage all that God has greatness in store for them.</plot>
+    </movie>
+    <movie id="14">
+        <title>Stay Tuned</title>
+        <rating>PG</rating>
+        <runtime>1h 28min</runtime>
+        <date>
+            <year>1992</year>
+            <month>August</month>
+            <day>14</day>
+        </date>
+        <genreList>
+            <genre name="Adventure">Adventure</genre>
+            <genre name="Comedy">Comedy</genre>
+            <genre name="Fantasy">Fantasy</genre>
+        </genreList>
+        <plot>A husband and wife are sucked into a hellish television set and have to survive a gauntlet of twisted versions of shows they find themselves in.</plot>
+    </movie>
+
+    <movie id="15">
+        <title>This Means War</title>
+        <rating>PG-13</rating>
+        <runtime>1h 43min</runtime>
+        <date>
+            <year>2012</year>
+            <month>February</month>
+            <day>17</day>
+        </date>
+        <genreList>
+            <genre name="Action">Action</genre>
+            <genre name="Comedy">Comedy</genre>
+            <genre name="Romance">Romance</genre>
+        </genreList>
+        <plot>C.I.A. operatives wage an epic battle on each other when they discover they are dating the same woman.</plot>
+    </movie>
+</movieList>

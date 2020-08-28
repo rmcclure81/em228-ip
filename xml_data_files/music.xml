@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<musicList>
+    <description>MUSIC</description>
+    <song id='01'>
+        <title>Love God, Love People</title>
+        <artist>Danny Gokey</artist>
+        <album>Haven't Seen It Yet</album>
+        <releaseYear>2019</releaseYear>
+        <genre>Christian</genre>
+        <duration>3:07</duration>
+    </song>
+    <song id='02'>
+        <title>Amadeo (Still My God)</title>
+        <artist>Ryan Stevenson</artist>
+        <album>Wildest Dreams</album>
+        <releaseYear>2020</releaseYear>
+        <genre>Christian</genre>
+        <duration>3:38</duration>
+    </song>
+    <song id='03'>
+        <title>Unstoppable God</title>
+        <artist>Sanctus Real</artist>
+        <album>Unstoppable God</album>
+        <releaseYear>2019</releaseYear>
+        <genre>Christian</genre>
+        <duration>3:42</duration>
+    </song>
+    <song id='04'>
+        <title>You Will Never Run</title>
+        <artist>Rend Collective</artist>
+        <album>As Family We Go</album>
+        <releaseYear>2015</releaseYear>
+        <genre>Christian</genre>
+        <duration>3:16</duration>
+    </song>
+    <song id='05'>
+        <title>Your Name is Power</title>
+        <artist>Rend Collective</artist>
+        <album>Your Name is Power</album>
+        <releaseYear>2019</releaseYear>
+        <genre>Christian</genre>
+        <duration>3:56</duration>
+    </song>
+    <song id='06'>
+        <title>Listen</title>
+        <artist>Josh Wilson</artist>
+        <album>Life is not a Snapshot</album>
+        <releaseYear>2009</releaseYear>
+        <genre>Christian</genre>
+        <duration>3:22</duration>
+    </song>
+    <song id='07'>
+        <title>The God Who Stays</title>
+        <artist>Matthew West</artist>
+        <album>The God Who Stays</album>
+        <releaseYear>2019</releaseYear>
+        <genre>Christian</genre>
+        <duration>3:57</duration>
+    </song>
+    <song id='08'>
+        <title>What If</title>
+        <artist>Nichole Nordeman</artist>
+        <album>Brave</album>
+        <releaseYear>2005</releaseYear>
+        <genre>Christian</genre>
+        <duration>4:44</duration>
+    </song>
+    <song id='09'>
+        <title>We Believe</title>
+        <artist>Newsboys</artist>
+        <album>Restart</album>
+        <releaseYear>2013</releaseYear>
+        <genre>Christian</genre>
+        <duration>4:22</duration>
+    </song>
+    <song id='10'>
+        <title>More Than Anything</title>
+        <artist>Natalie Grant</artist>
+        <album>Be One</album>
+        <releaseYear>2015</releaseYear>
+        <genre>Christian</genre>
+        <duration>3:15</duration>
+    </song>
+    <song id='11'>
+        <title>I Refuse</title>
+        <artist>Josh Wilson</artist>
+        <album>See You</album>
+        <releaseYear>2010</releaseYear>
+        <genre>Christian</genre>
+        <duration>3:38</duration>
+    </song>
+    <song id='12'>
+        <title>Words</title>
+        <artist>Hawk Nelson</artist>
+        <album>Made</album>
+        <releaseYear>2013</releaseYear>
+        <genre>Christian</genre>
+        <duration>3:24</duration>
+    </song>
+    <song id='13'>
+        <title>Voice of Truth</title>
+        <artist>Casting Crowns</artist>
+        <album>Casting Crowns</album>
+        <releaseYear>2003</releaseYear>
+        <genre>Christian</genre>
+        <duration>5:24</duration>
+    </song>
+    <song id='14'>
+        <title>East to West</title>
+        <artist>Casting Crowns</artist>
+        <album>The Alter and the Door</album>
+        <releaseYear>1993</releaseYear>
+        <genre>Christian</genre>
+        <duration>4:25</duration>
+    </song>
+    <song id='15'>
+        <title>Love Moved First</title>
+        <artist>Casting Crowns</artist>
+        <album>Only Jesus</album>
+        <releaseYear>2018</releaseYear>
+        <genre>Christian</genre>
+        <duration>3:26</duration>
+    </song>
+    <song id='16'>
+        <title>Who I Am</title>
+        <artist>Casting Crowns</artist>
+        <album>Casting Crowns</album>
+        <releaseYear>2003</releaseYear>
+        <genre>Christian</genre>
+        <duration>5:36</duration>
+    </song>
+</musicList>

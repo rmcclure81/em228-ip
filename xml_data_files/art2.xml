@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet href="../xsl_files/art.xslt" type="text/xsl" ?>
+
+<gallery>
+    <description>MY DAUGHTER'S ARTWORK</description>
+    <art id="1">
+        <image file="../images/Netherlands.jpeg" />
+        <orientation>l</orientation>
+        <title>Netherlands (Country Human)</title>
+        <date>
+            <month>July</month>
+            <day>24</day>
+            <year>2020</year>
+        </date>
+    </art>
+    <art id="2">
+        <image file="../images/Imayno.PNG" />
+        <orientation>p</orientation>
+        <title>Imayno</title>
+        <date>
+            <month>July</month>
+            <day>28</day>
+            <year>2020</year>
+        </date>
+    </art>
+    <art id="3">
+        <image file="../images/Polt.jpeg" />
+        <orientation>p</orientation>
+        <title>Polt!</title>
+        <date>
+            <month>June</month>
+            <day>19</day>
+            <year>2020</year>
+        </date>
+    </art>
+    <art id="4">
+        <image file="../images/Germany.jpeg" />
+        <orientation>p</orientation>
+        <title>Germany (Country Human)</title>
+        <date>
+            <month>May</month>
+            <day>16</day>
+            <year>2020</year>
+        </date>
+    </art>
+    <art id="5">
+        <image file="../images/Indonesia.jpeg" />
+        <orientation>p</orientation>
+        <title>Indonesia Outside (Country Human)</title>
+        <date>
+            <month>August</month>
+            <day>1</day>
+            <year>2020</year>
+        </date>
+    </art>
+    <art id="6">
+        <image file="../images/Netherlands2.jpeg" />
+        <orientation>s</orientation>
+        <title>Netherlands 2 (Country Human)</title>
+        <date>
+            <month>July</month>
+            <day>29</day>
+            <year>2020</year>
+        </date>
+    </art>
+    <art id="7">
+        <image file="../images/Netherlands3.jpeg" />
+        <orientation>s</orientation>
+        <title>Netherlands 3 (Country Human)</title>
+        <date>
+            <month>July</month>
+            <day>29</day>
+            <year>2020</year>
+        </date>
+    </art>
+    <art id="8">
+        <image file="../images/Indonesia2.jpeg" />
+        <orientation>p</orientation>
+        <title>Indonesia 2 (Country Human)</title>
+        <date>
+            <month>July</month>
+            <day>29</day>
+            <year>2020</year>
+        </date>
+    </art>
+    <art id="9">
+        <image file="../images/Piggy.jpeg" />
+        <orientation>l</orientation>
+        <title>Piggy Map Part</title>
+        <date>
+            <month>August</month>
+            <day>5</day>
+            <year>2020</year>
+        </date>
+    </art>
+    <art id="10">
+        <image file="../images/Netherlands4.jpeg" />
+        <orientation>s</orientation>
+        <title>Netherlands 4 (Country Human)</title>
+        <date>
+            <month>June</month>
+            <day>11</day>
+            <year>2020</year>
+        </date>
+    </art>
+    <art id="11">
+        <image file="../images/Canada.PNG" />
+        <orientation>s</orientation>
+        <title>Canada (Country Human)</title>
+        <date>
+            <month>February</month>
+            <day>4</day>
+            <year>2020</year>
+        </date>
+    </art>
+    <art id="12">
+        <image file="../images/Coronavirus.jpeg" />
+        <orientation>p</orientation>
+        <title>Coronavirus</title>
+        <date>
+            <month>April</month>
+            <day>9</day>
+            <year>2020</year>
+        </date>
+    </art>
+    <art id="13">
+        <image file="../images/Malaysia.jpeg" />
+        <orientation>p</orientation>
+        <title>Malaysia (Country Human)</title>
+        <date>
+            <month>August</month>
+            <day>23</day>
+            <year>2020</year>
+        </date>
+    </art>
+    <art id="14">
+        <image file="../images/Philippines.jpeg" />
+        <orientation>p</orientation>
+        <title>Philippines</title>
+        <date>
+            <month>May</month>
+            <day>6</day>
+            <year>2020</year>
+        </date>
+    </art>
+    <art id="15">
+        <image file="../images/Imanyo2.jpeg" />
+        <orientation>p</orientation>
+        <title>Imanyo 2</title>
+        <date>
+            <month>August</month>
+            <day>23</day>
+            <year>2020</year>
+        </date>
+    </art>
+</gallery>

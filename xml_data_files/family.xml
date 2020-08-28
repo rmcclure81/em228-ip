@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<familyList>
+    <description>FAMILY</description>
+    <person id='01'>
+        <firstName>Kristina</firstName>
+        <lastName>Petersen</lastName>
+        <relationship>Mother</relationship>
+        <gender>Female</gender>
+        <age>60</age>
+    </person>
+    <person id='02'>
+        <firstName>James</firstName>
+        <lastName>McClure</lastName>
+        <relationship>Father</relationship>
+        <gender>Male</gender>
+        <age>71</age>
+    </person>
+    <person id='03'>
+        <firstName>Marissa</firstName>
+        <lastName>Moralez</lastName>
+        <relationship>Children's Mother</relationship>
+        <gender>Female</gender>
+        <age>31</age>
+    </person>
+    <person id='04'>
+        <firstName>Alessa</firstName>
+        <lastName>McClure</lastName>
+        <relationship>Daughter</relationship>
+        <gender>Female</gender>
+        <age>12</age>
+    </person>
+    <person id='05'>
+        <firstName>Jonathan</firstName>
+        <lastName>McClure</lastName>
+        <relationship>Son</relationship>
+        <gender>Male</gender>
+        <age>11</age>
+    </person>
+    <person id='06'>
+        <firstName>Nickolaus</firstName>
+        <lastName>McClure</lastName>
+        <relationship>Son</relationship>
+        <gender>Male</gender>
+        <age>9</age>
+    </person>
+    <person id='07'>
+        <firstName>Jason</firstName>
+        <lastName>Guo</lastName>
+        <relationship>Brother</relationship>
+        <gender>Male</gender>
+        <age>32</age>
+    </person>
+    <person id='08'>
+        <firstName>Carly</firstName>
+        <lastName>Guo</lastName>
+        <relationship>Sister-in-Law</relationship>
+        <gender>Female</gender>
+        <age>28</age>
+    </person>
+    <person id='09'>
+        <firstName>Kyle</firstName>
+        <lastName>Petersen</lastName>
+        <relationship>Brother</relationship>
+        <gender>Male</gender>
+        <age>34</age>
+    </person>
+    <person id='10'>
+        <firstName>Jamie</firstName>
+        <lastName>Petersen</lastName>
+        <relationship>Sister</relationship>
+        <gender>Female</gender>
+        <age>36</age>
+    </person>
+    <person id='11'>
+        <firstName>Becky</firstName>
+        <lastName>Brady</lastName>
+        <relationship>Sister</relationship>
+        <gender>Female</gender>
+        <age>Deceased</age>
+    </person>
+    <person id='12'>
+        <firstName>Holley</firstName>
+        <lastName>Ray</lastName>
+        <relationship>Niece</relationship>
+        <gender>Female</gender>
+        <age>23</age>
+    </person>
+    <person id='13'>
+        <firstName>Mekenzie</firstName>
+        <lastName>Brady</lastName>
+        <relationship>Niece</relationship>
+        <gender>Female</gender>
+        <age>22</age>
+    </person>
+    <person id='14'>
+        <firstName>Abegael</firstName>
+        <lastName>Brady</lastName>
+        <relationship>Niece</relationship>
+        <gender>Female</gender>
+        <age>20</age>
+    </person>
+    <person id='15'>
+        <firstName>Dusty</firstName>
+        <lastName>Guerrero</lastName>
+        <relationship>Niece</relationship>
+        <gender>Female</gender>
+        <age>16</age>
+    </person>
+    <person id='16'>
+        <firstName>Kevin</firstName>
+        <lastName>Guo</lastName>
+        <relationship>Nephew</relationship>
+        <gender>Male</gender>
+        <age>1</age>
+    </person>
+</familyList>

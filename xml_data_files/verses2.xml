@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet href="../xsl_files/verses.xslt" type="text/xsl" ?>
+
+<verseList>
+    <description>BIBLE VERSES</description>
+    <verse id="01">
+        <book>James</book>
+        <chapter>2</chapter>
+        <verses>26</verses>
+        <data>As the body without the spirit is dead, so faith without deeds is dead.</data>
+    </verse>
+    <verse id="02">
+        <book>Romans</book>
+        <chapter>8</chapter>
+        <verses>38-39</verses>
+        <data>For I am convinced that neither death nor life, neither angels nor demons, neither the present nor the future, nor any powers, neither height nor depth, nor anything else in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord.</data>
+    </verse>
+    <verse id="03">
+        <book>Lamentations</book>
+        <chapter>3</chapter>
+        <verses>22-24</verses>
+        <data>Because of the Lord’s great love we are not consumed,
+            for his compassions never fail.
+            They are new every morning;
+            great is your faithfulness.
+            I say to myself, “The Lord is my portion;
+            therefore I will wait for him.”</data>
+    </verse>
+    <verse id="04">
+        <book>John</book>
+        <chapter>15</chapter>
+        <verses>13</verses>
+        <data>Greater love has no one than this: to lay down one’s life for one’s friends.</data>
+    </verse>
+    <verse id="05">
+        <book>Deuteronomy</book>
+        <chapter>31</chapter>
+        <verses>6</verses>
+        <data>"Be strong and courageous. Do not be afraid or terrified because of them, for the Lord your God goes with you; he will never leave you nor forsake you.”</data>
+    </verse>
+    <verse id="06">
+        <book>Ephesians</book>
+        <chapter>4</chapter>
+        <verses>32</verses>
+        <data>Be kind and compassionate to one another, forgiving each other, just as in Christ God forgave you.</data>
+    </verse>
+    <verse id="07">
+        <book>Luke</book>
+        <chapter>6</chapter>
+        <verses>37</verses>
+        <data>“Do not judge, and you will not be judged. Do not condemn, and you will not be condemned. Forgive, and you will be forgiven."</data>
+    </verse>
+    <verse id="08">
+        <book>Romans</book>
+        <chapter>15</chapter>
+        <verses>13</verses>
+        <data>May the God of hope fill you with all joy and peace as you trust in him, so that you may overflow with hope by the power of the Holy Spirit.</data>
+    </verse>
+    <verse id="09">
+        <book>Psalms</book>
+        <chapter>31</chapter>
+        <verses>23-24</verses>
+        <data>Love the Lord, all his faithful people!
+            The Lord preserves those who are true to him,
+            but the proud he pays back in full.
+            Be strong and take heart,
+            all you who hope in the Lord.</data>
+    </verse>
+    <verse id="10">
+        <book>Romans</book>
+        <chapter>7</chapter>
+        <verses>19</verses>
+        <data>For I do not do the good I want to do, but the evil I do not want to do—this I keep on doing.</data>
+    </verse>
+    <verse id="11">
+        <book>1 Peter</book>
+        <chapter>5</chapter>
+        <verses>7</verses>
+        <data>Cast all your anxiety on him because he cares for you.</data>
+    </verse>
+    <verse id="12">
+        <book>Proverbs</book>
+        <chapter>3</chapter>
+        <verses>3-6</verses>
+        <data>Let love and faithfulness never leave you;
+            bind them around your neck,
+            write them on the tablet of your heart.
+            Then you will win favor and a good name
+            in the sight of God and man.
+            Trust in the Lord with all your heart
+            and lean not on your own understanding;
+            in all your ways submit to him,
+            and he will make your paths straight.</data>
+    </verse>
+    <verse id="13">
+        <book>Jeremiah</book>
+        <chapter>29</chapter>
+        <verses>11</verses>
+        <data>"For I know the plans I have for you,” declares the Lord, “plans to prosper you and not to harm you, plans to give you hope and a future."</data>
+    </verse>
+    <verse id="14">
+        <book>1 Corinthians</book>
+        <chapter>13</chapter>
+        <verses>4-7</verses>
+        <data>Love is patient, love is kind. It does not envy, it does not boast, it is not proud. It does not dishonor others, it is not self-seeking, it is not easily angered, it keeps no record of wrongs. Love does not delight in evil but rejoices with the truth. It always protects, always trusts, always hopes, always perseveres.</data>
+    </verse>
+    <verse id="15">
+        <book>Ephesians</book>
+        <chapter>4</chapter>
+        <verses>2</verses>
+        <data>Be completely humble and gentle; be patient, bearing with one another in love.</data>
+    </verse>
+</verseList>
