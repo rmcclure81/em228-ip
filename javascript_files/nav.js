@@ -117,7 +117,7 @@ document.write('');
 document.write('</div>');
 document.write('</div>');
 
-//** Week 5 **//
+//** Week 5 - Still Need **//
 document.write('<div class="dropdown" id="w5">');
 document.write(
   '<button class="btn_dropdown_toggle" type="button" data-toggle="dropdown">'
@@ -127,24 +127,14 @@ document.write(
 );
 document.write('</button>');
 document.write('<div class="dropdownContent">');
-document.write(
-  '<a href="https://rmcclure81.github.io/em228-ip/html/art.html" class="links">Art Collection</a>'
-);
+document.write('');
 document.write('<br /><br />');
-document.write(
-  '<a href="https://rmcclure81.github.io/em228-ip/html/verses.html" class="links">Bible Verse Collection</a>'
-);
+document.write('');
 document.write('<br /><br />');
-document.write(
-  '<a href="https://rmcclure81.github.io/em228-ip/html/family.html" class="links">Family Collection</a>'
-);
+document.write('');
 document.write('<br /><br />');
-document.write(
-  '<a href="https://rmcclure81.github.io/em228-ip/html/movies.html" class="links">Movie Collection</a>'
-);
+document.write('');
 document.write('<br /><br />');
-document.write(
-  '<a href="https://rmcclure81.github.io/em228-ip/html/music.html" class="links">Music Collection</a>'
-);
+document.write('');
 document.write('</div>');
 document.write('</div>');
