@@ -1,6 +1,7 @@
 function runScript() {
   printTitle();
   getAddress();
+  timeModified();
 }
 
 function printTitle() {
@@ -51,5 +52,12 @@ function printTitle() {
 }
 
 function getAddress() {
-  document.getElementById('address').innerHTML = document.href;
+  document.getElementById('address').innerHTML = document.URL;
+}
+
+function timeModified() {
+  // var x = new Date(document.lastModified);
+  document.getElementById('modified').innerHTML = new Date(
+    document.lastModified
+  );
 }
