@@ -59,5 +59,5 @@ function timeModified() {
   // var x = new Date(document.lastModified);
   document.getElementById('modified').innerHTML = new Date(
     document.lastModified
-  );
+  ).substring(1, 22);
 }
