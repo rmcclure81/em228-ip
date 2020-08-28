@@ -6,14 +6,41 @@
     <link rel="stylesheet" type="text/css" href="../css/index.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/ico" href="../images/favicon.ico" />
-    <script src="../javascript_files/ip3.js"></script>
+    <!-- <script src="../javascript_files/ip3.js"></script> -->
   </head>
   <body>
     <header>
       <div id="heading1">
         <img src="../images/favicon.ico" alt="Logo" class="logo" />
         <script>
-          printTitle();
+          if (window.XMLHttpRequest) {
+            // Code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp = new XMLHttpRequest();
+          } else {
+            // Code for IE5, IE6
+            xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
+          }
+
+          var art = '../xml_data_files/art2.xml',
+            arthtml = 'https://rmcclure81.github.io/em228-ip/html/art2.html',
+            artxsl =
+              'https://rmcclure81.github.io/em228-ip/xsl_files/art2.xslt';
+
+          if (
+            window.location.pathname == arthtml ||
+            window.location.pathname == artxsl
+          ) {
+            xmlhttp.open('GET', 'art', false);
+          }
+          xmlhttp.send();
+          xmlDoc = xmlhttp.responseXML;
+          document.write('<span>');
+          document.write(
+            xmlDoc.getElementsByTagName('description')[0].childNodes[0]
+              .nodeValue
+          );
+          document.write('</span>');
+          // printTitle();
         </script>
       </div>
     </header>
