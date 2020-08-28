@@ -1,6 +1,6 @@
-// functionrunScript() {
-//   printTitle();
-// }
+function runScript() {
+  printTitle();
+}
 
 // document.getElementById('headingTitle').onload = function () {
 //   printTitle();
