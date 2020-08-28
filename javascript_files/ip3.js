@@ -25,12 +25,13 @@ function printTitle() {
     // xmlhttp.open('GET', 'art', false);
     // xmlhttp.send();
     // xmlDoc = xmlhttp.responseXML;
-    document.write('<span>');
-    document.write(
-      'Art Collection'
-      // xmlDoc.getElementsByTagName('description')[0].childNodes[0].nodeValue
-    );
-    document.write('</span>');
+    // document.write('<span>');
+    document.getElementById('title').innerHTML = 'Art Collection-';
+    // document.write(
+    //   'Art Collection'
+    //   xmlDoc.getElementsByTagName('description')[0].childNodes[0].nodeValue
+    // );
+    // document.write('</span>');
   }
   // xmlhttp.send();
   // xmlDoc = xmlhttp.responseXML;
