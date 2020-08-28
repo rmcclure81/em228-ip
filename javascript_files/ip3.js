@@ -11,7 +11,7 @@ function printTitle() {
     xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
   }
 
-  var art = '../xml_data_files/art2.xml',
+  var art = '../xml_data_files/art.xml',
     arthtml = '/em228-ip/html/art2.html',
     artxsl = '/em228-ip/xsl_files/art2.xslt';
 
