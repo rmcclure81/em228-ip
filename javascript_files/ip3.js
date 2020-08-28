@@ -3,7 +3,7 @@ function runScript() {
   getAddress();
   timeModified();
   getDescription();
-  setDescription();
+  //   setDescription();
 }
 
 function printTitle() {
@@ -41,15 +41,24 @@ function getDescription() {
   xmlDoc = xmlhttp.responseXML;
   var desc = xmlDoc.getElementsByTagName('description')[0].childNodes[0]
     .nodeValue;
-}
 
-function setDescription() {
   var newSpan = document.createElement('span');
   var allDiv = document.getElementsByTagName('div');
   var fourthDiv = allDiv[3];
 
   newSpan.setAttribute('id', 'description');
-  newSpan.innerHTML = getDescription.desc;
+  newSpan.innerHTML = desc;
 
   fourthDiv.appendChild(newSpan);
 }
+
+// function setDescription() {
+//   var newSpan = document.createElement('span');
+//   var allDiv = document.getElementsByTagName('div');
+//   var fourthDiv = allDiv[3];
+
+//   newSpan.setAttribute('id', 'description');
+//   newSpan.innerHTML = getDescription.desc;
+
+//   fourthDiv.appendChild(newSpan);
+// }
