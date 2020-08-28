@@ -26,6 +26,7 @@ function printTitle() {
   // xmlhttp.send();
   // xmlDoc = xmlhttp.responseXML;
   document.write('<span>');
+
   document.write(
     arthtml
     // 'Art Collection'
