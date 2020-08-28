@@ -1,0 +1,12 @@
+Write a JavaScript that returns (and writes) the title of one of the Web pages somewhere on that page.
+
+
+Write a JavaScript that returns (and writes) the URL of one of the Web pages somewhere on that page.
+
+
+Write a JavaScript that returns (and writes) the date and time that each Web page was modified somewhere on that page.
+
+
+Write 3 more useful JavaScripts that refer to the JavaScript Document Object Model (DOM), and add those scripts to the respective Web pages.
+
+    1. Created a script that creates a new <span> element. It also gets the path location to determine what XML file to open. Finally, it pulls the description from the proper XML file and displays it in the newly created <span> element.

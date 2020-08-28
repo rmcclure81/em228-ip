@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<assignment id='2'>
+    <task>
+        <requirement>Create 5 different XQuery files to query each of the collections of data provided in the XML files from Unit 1.</requirement>
+        <fulfilled></fulfilled>
+    </task>
+    <task>
+        <requirement>Using in-code comments, describe the purpose and rationale of each query. Specifically describe how it serves the interactive needs of the target Web site audience.</requirement>
+        <fulfilled></fulfilled>
+    </task>
+    <task>
+        <requirement>Provide links to permit querying and viewing each of the XML data files.</requirement>
+        <fulfilled></fulfilled>
+    </task>
+</assignment>
