@@ -56,6 +56,6 @@ function getAddress() {
 }
 
 function timeModified() {
-  var x = toString(new Date(document.lastModified));
+  var x = String(new Date(document.lastModified));
   document.getElementById('modified').innerHTML = x.substring(1, 22);
 }
