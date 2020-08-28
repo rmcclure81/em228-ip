@@ -18,7 +18,7 @@ document.write(
 document.write('</button>');
 document.write('<div class="dropdownContent">');
 document.write(
-  '<a href="../xml_data_files/art.xml" class="links">Art Collection</a>'
+  '<a href="https://rmcclure81.github.io/em228-ip/xml_data_files/art.xml" class="links">Art Collection</a>'
 );
 document.write('<br /><br />');
 document.write(
