@@ -23,7 +23,7 @@ function getDescription() {
   //** Variable declarations **/
   var art = '../xml_data_files/art.xml',
     artHTML = '/em228-ip/html/art2.html',
-    artXSL = '/em228-ip/xsl_files/art.xslt';
+    artXSL = '/em228-ip/xsl_files/art2.xml';
   var family = '../xml_data_files/family.xml',
     familyHTML = '/em228-ip/html/family.html',
     familyXSL = '/em228-ip/xsl_files/family.xslt';
@@ -54,35 +54,35 @@ function getDescription() {
   ) {
     //** Creating GET Request for Art XML File **/
     xmlhttp.open('GET', art, false);
-//   } else if (
-//     //** Determining Path - Family **/
-//     window.location.pathname == familyHTML ||
-//     window.location.pathname == familyXSL
-//   ) {
-//     //** Creating GET Request for Family XML File **/
-//     xmlhttp.open('GET', family, false);
-//   } else if (
-//     //** Determining Path - Movies **/
-//     window.location.pathname == moviesHTML ||
-//     window.location.pathname == moviesXSL
-//   ) {
-//     //** Creating GET Request for Movies XML File **/
-//     xmlhttp.open('GET', movies, false);
-//   } else if (
-//     //** Determining Path - Music **/
-//     window.location.pathname == musicHTML ||
-//     window.location.pathname == musicXSL
-//   ) {
-//     //** Creating GET Request for Music XML File **/
-//     xmlhttp.open('GET', music, false);
-//   } else if (
-//     //** Determining Path - Verses **/
-//     window.location.pathname == versesHTML ||
-//     window.location.pathname == versesXSL
-//   ) {
-//     //** Creating GET Request for Verses XML File **/
-//     xmlhttp.open('GET', verses, false);
-//   }
+  } else if (
+    //** Determining Path - Family **/
+    window.location.pathname == familyHTML ||
+    window.location.pathname == familyXSL
+  ) {
+    //** Creating GET Request for Family XML File **/
+    xmlhttp.open('GET', family, false);
+  } else if (
+    //** Determining Path - Movies **/
+    window.location.pathname == moviesHTML ||
+    window.location.pathname == moviesXSL
+  ) {
+    //** Creating GET Request for Movies XML File **/
+    xmlhttp.open('GET', movies, false);
+  } else if (
+    //** Determining Path - Music **/
+    window.location.pathname == musicHTML ||
+    window.location.pathname == musicXSL
+  ) {
+    //** Creating GET Request for Music XML File **/
+    xmlhttp.open('GET', music, false);
+  } else if (
+    //** Determining Path - Verses **/
+    window.location.pathname == versesHTML ||
+    window.location.pathname == versesXSL
+  ) {
+    //** Creating GET Request for Verses XML File **/
+    xmlhttp.open('GET', verses, false);
+  }
   xmlhttp.send();
   xmlDoc = xmlhttp.responseXML;
   var desc = xmlDoc.getElementsByTagName('description')[0].childNodes[0]
