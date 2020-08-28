@@ -26,7 +26,7 @@ function printTitle() {
     // xmlhttp.send();
     // xmlDoc = xmlhttp.responseXML;
     // document.write('<span>');
-    // document.getElementById('title').innerHTML = 'Art Collection';
+    document.getElementById('title').innerHTML = 'Art Collection';
     // document.write(
     //   'Art Collection'
     //   xmlDoc.getElementsByTagName('description')[0].childNodes[0].nodeValue
@@ -35,7 +35,7 @@ function printTitle() {
   } else {
     document.getElementById('title').innerHTML = 'Wrong Path';
   }
-  document.getElementById('title').innerHTML = 'Art Collection';
+  // document.getElementById('title').innerHTML = 'Art Collection';
 
   // xmlhttp.send();
   // xmlDoc = xmlhttp.responseXML;
