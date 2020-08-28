@@ -1,3 +1,7 @@
+functionrunScript() {
+  printTitle();
+}
+
 function printTitle() {
   // if (window.XMLHttpRequest) {
   //   // Code for IE7+, Firefox, Chrome, Opera, Safari
