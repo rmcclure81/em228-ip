@@ -44,7 +44,7 @@ function getDescription() {
 
   var newSpan = document.createElement('span');
   var allDiv = document.getElementsByTagName('div');
-  var fourthDiv = allDiv[7];
+  var fourthDiv = allDiv[9];
 
   newSpan.setAttribute('id', 'description');
   newSpan.innerHTML = desc;
