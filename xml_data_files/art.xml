@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 
 <gallery>
-    <description>Art Collection</description>
+    <description>The purpose of this XML file is to display 15 pieces of my daughter's
+        artwork with the titles and dates created.</description>
     <art id="1">
         <image file="../images/Netherlands.jpeg" />
         <orientation>l</orientation>
