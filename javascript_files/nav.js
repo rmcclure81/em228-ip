@@ -1,4 +1,4 @@
-//** Week 1 **//
+//** Week 1 -  **//
 document.write('<div class="dropdown" id="w1">');
 document.write(
   '<button class="btn_dropdown_toggle" type="button" data-toggle="dropdown">'
