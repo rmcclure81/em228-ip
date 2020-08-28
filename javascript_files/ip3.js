@@ -15,19 +15,20 @@ function printTitle() {
     window.location.pathname == arthtml ||
     window.location.pathname == artxsl
   ) {
-    if (window.XMLHttpRequest) {
-      // Code for IE7+, Firefox, Chrome, Opera, Safari
-      xmlhttp = new XMLHttpRequest();
-    } else {
-      // Code for IE5, IE6
-      xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
-    }
-    xmlhttp.open('GET', 'art', false);
-    xmlhttp.send();
-    xmlDoc = xmlhttp.responseXML;
+    // if (window.XMLHttpRequest) {
+    //   // Code for IE7+, Firefox, Chrome, Opera, Safari
+    //   xmlhttp = new XMLHttpRequest();
+    // } else {
+    //   // Code for IE5, IE6
+    //   xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
+    // }
+    // xmlhttp.open('GET', 'art', false);
+    // xmlhttp.send();
+    // xmlDoc = xmlhttp.responseXML;
     document.write('<span>');
     document.write(
-      xmlDoc.getElementsByTagName('description')[0].childNodes[0].nodeValue
+      'Art Collection'
+      // xmlDoc.getElementsByTagName('description')[0].childNodes[0].nodeValue
     );
     document.write('</span>');
   }
