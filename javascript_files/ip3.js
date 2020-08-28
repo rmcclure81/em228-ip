@@ -1,6 +1,10 @@
-functionrunScript() {
+// functionrunScript() {
+//   printTitle();
+// }
+
+document.getElementById('headingTitle').onload = function () {
   printTitle();
-}
+};
 
 function printTitle() {
   // if (window.XMLHttpRequest) {
