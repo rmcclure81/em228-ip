@@ -39,7 +39,8 @@ function getDescription() {
   }
   xmlhttp.send();
   xmlDoc = xmlhttp.responseXML;
-  var desc = getElementsByTagName('description')[0].childNodes[0].nodeValue;
+  var desc = xmlDoc.getElementsByTagName('description')[0].childNodes[0]
+    .nodeValue;
 }
 
 function setDescription() {
