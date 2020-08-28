@@ -11,27 +11,28 @@ function printTitle() {
     arthtml = 'https://rmcclure81.github.io/em228-ip/html/art2.html',
     artxsl = 'https://rmcclure81.github.io/em228-ip/xsl_files/art2.xslt';
 
-  if (
-    window.location.pathname == arthtml ||
-    window.location.pathname == artxsl
-  ) {
-    // if (window.XMLHttpRequest) {
-    //   // Code for IE7+, Firefox, Chrome, Opera, Safari
-    //   xmlhttp = new XMLHttpRequest();
-    // } else {
-    //   // Code for IE5, IE6
-    //   xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
-    // }
-    // xmlhttp.open('GET', 'art', false);
-    // xmlhttp.send();
-    // xmlDoc = xmlhttp.responseXML;
-    document.write('<span>');
-    document.write(
-      'Art Collection'
-      // xmlDoc.getElementsByTagName('description')[0].childNodes[0].nodeValue
-    );
-    document.write('</span>');
-  }
+  // if (
+  //   window.location.pathname == arthtml ||
+  //   window.location.pathname == artxsl
+  // ) {
+  // if (window.XMLHttpRequest) {
+  //   // Code for IE7+, Firefox, Chrome, Opera, Safari
+  //   xmlhttp = new XMLHttpRequest();
+  // } else {
+  //   // Code for IE5, IE6
+  //   xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
+  // }
+  // xmlhttp.open('GET', 'art', false);
+  // xmlhttp.send();
+  // xmlDoc = xmlhttp.responseXML;
+  document.write('<span>');
+  document.write(
+    arthtml
+    // 'Art Collection'
+    // xmlDoc.getElementsByTagName('description')[0].childNodes[0].nodeValue
+  );
+  document.write('</span>');
+  // }
   // xmlhttp.send();
   // xmlDoc = xmlhttp.responseXML;
   // document.write('<span>');
