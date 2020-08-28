@@ -31,8 +31,9 @@
             window.location.pathname == artxsl
           ) {
             xmlhttp.open('GET', 'art', false);
+            xmlhttp.send();
           }
-          xmlhttp.send();
+
           xmlDoc = xmlhttp.responseXML;
           document.write('<span>');
           document.write(
