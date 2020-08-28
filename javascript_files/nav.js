@@ -1,4 +1,4 @@
-//** Week 1 -  **//
+//** Week 1 **//
 document.write('<div class="dropdown" id="w1">');
 document.write(
   '<button class="btn_dropdown_toggle" type="button" data-toggle="dropdown">'
@@ -9,23 +9,23 @@ document.write(
 document.write('</button>');
 document.write('<div class="dropdownContent">');
 document.write(
-  '<a href="https://rmcclure81.github.io/em228-ip/xml_data_files/art.xml" class="links">Art Collection</a>'
+  '<a href="../xml_data_files/art.xml" class="links">Art Collection</a>'
 );
 document.write('<br /><br />');
 document.write(
-  '<a href="https://rmcclure81.github.io/em228-ip/xml_data_files/verses.xml" class="links">Bible Verse Collection</a>'
+  '<a href="../xml_data_files/verses.xml" class="links">Bible Verse Collection</a>'
 );
 document.write('<br /><br />');
 document.write(
-  '<a href="https://rmcclure81.github.io/em228-ip/xml_data_files/family.xml" class="links">Family Collection</a>'
+  '<a href="../xml_data_files/family.xml" class="links">Family Collection</a>'
 );
 document.write('<br /><br />');
 document.write(
-  '<a href="https://rmcclure81.github.io/em228-ip/xml_data_files/movies.xml" class="links">Movie Collection</a>'
+  '<a href="../xml_data_files/movies.xml" class="links">Movie Collection</a>'
 );
 document.write('<br /><br />');
 document.write(
-  '<a href="https://rmcclure81.github.io/em228-ip/xml_data_files/music.xml" class="links">Music Collection</a>'
+  '<a href="../xml_data_files/music.xml" class="links">Music Collection</a>'
 );
 document.write('</div>');
 document.write('</div>');
@@ -41,23 +41,23 @@ document.write(
 document.write('</button>');
 document.write('<div class="dropdownContent">');
 document.write(
-  '<a href="https://rmcclure81.github.io/em228-ip/xml_data_files/art2.xml" class="links">Art Collection</a>'
+  '<a href="../xml_data_files/art2.xml" class="links">Art Collection</a>'
 );
 document.write('<br /><br />');
 document.write(
-  '<a href="https://rmcclure81.github.io/em228-ip/xml_data_files/verses2.xml" class="links">Bible Verse Collection</a>'
+  '<a href="../xml_data_files/verses2.xml" class="links">Bible Verse Collection</a>'
 );
 document.write('<br /><br />');
 document.write(
-  '<a href="https://rmcclure81.github.io/em228-ip/xml_data_files/family2.xml" class="links">Family Collection</a>'
+  '<a href="../xml_data_files/family2.xml" class="links">Family Collection</a>'
 );
 document.write('<br /><br />');
 document.write(
-  '<a href="https://rmcclure81.github.io/em228-ip/xml_data_files/movies2.xml" class="links">Movie Collection</a>'
+  '<a href="../xml_data_files/movies2.xml" class="links">Movie Collection</a>'
 );
 document.write('<br /><br />');
 document.write(
-  '<a href="https://rmcclure81.github.io/em228-ip/xml_data_files/music2.xml" class="links">Music Collection</a>'
+  '<a href="../xml_data_files/music2.xml" class="links">Music Collection</a>'
 );
 document.write('</div>');
 document.write('</div>');

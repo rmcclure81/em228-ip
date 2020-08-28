@@ -12,7 +12,9 @@
             <body style="background-color:#90ee90;">
                 <header>
                     <div id="heading1">
-                        <img src="../images/favicon.ico" alt="Logo" class="logo" />
+                        <a href="https://rmcclure81.github.io/em228-ip/index.html">
+                            <img src="../images/favicon.ico" alt="Logo" class="logo" />
+                        </a>
                         <span>Family Collection</span>
                     </div>
                 </header>
