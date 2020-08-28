@@ -7,14 +7,14 @@ function printTitle() {
   //   xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
   // }
 
-  // var art = '../xml_data_files/art2.xml',
-  //   arthtml = 'https://rmcclure81.github.io/em228-ip/html/art2.html',
-  //   artxsl = 'https://rmcclure81.github.io/em228-ip/xsl_files/art2.xslt';
+  var art = '../xml_data_files/art2.xml',
+    arthtml = 'https://rmcclure81.github.io/em228-ip/html/art2.html',
+    artxsl = 'https://rmcclure81.github.io/em228-ip/xsl_files/art2.xslt';
 
-  // if (
-  //   window.location.pathname == arthtml ||
-  //   window.location.pathname == artxsl
-  // ) {
+  if (
+    window.location.pathname == arthtml ||
+    window.location.pathname == artxsl
+  ) {
   // if (window.XMLHttpRequest) {
   //   // Code for IE7+, Firefox, Chrome, Opera, Safari
   //   xmlhttp = new XMLHttpRequest();
