@@ -8,15 +8,15 @@
                 <link rel="stylesheet" type="text/css" href="../css/index.css" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="shortcut icon" type="image/ico" href="../images/favicon.ico" />
+                <script src="../javascript_files/ip3.js"></script>
             </head>
-            <body style="background-color:#90ee90;">
-
+            <body onload="runScript()">
                 <header>
                     <div id="heading1">
                         <a href="../html/index.html">
                             <img src="../images/favicon.ico" alt="Logo" class="logo" />
                         </a>
-                        <span>Art Collection</span>
+                        <span id="headingTitle"></span>
                     </div>
                 </header>
                 <nav class="navbar">
@@ -24,10 +24,11 @@
                 </nav>
                 <div class="descriptionContainer">
                     <div class="descriptionHeading">Description:</div>
-                    <div id="description">
+                    <div></div>
+                    <!-- <div id="description">
                       The purpose of this XML file is to display 15 pieces of my daughter's
                       artwork with the titles and dates created.
-                    </div>
+                    </div> -->
                 </div>
 
                 <!-- In Page Links -->
@@ -195,6 +196,16 @@
                         </xsl:if>
                     </xsl:for-each>
                 </table>
+                <footer align="center">
+                    <div>
+                        <span>URL: </span>
+                        <span id="address"></span>
+                    </div>
+                    <div>
+                        <span>Last Modified: </span>
+                        <span id="modified"></span>
+                    </div>
+                </footer>
             </body>
         </html>
     </xsl:template>

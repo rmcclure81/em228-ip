@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 
 <familyList>
-    <description>FAMILY</description>
+    <description>The purpose of this XML file is to display the details of 16 of my close family members.</description>
     <person id='01'>
         <firstName>Kristina</firstName>
         <lastName>Petersen</lastName>

@@ -20,10 +20,24 @@ function timeModified() {
 }
 
 function getDescription() {
+  //** Variable declarations **/
   var art = '../xml_data_files/art.xml',
     artHTML = '/em228-ip/html/art2.html',
     artXSL = '/em228-ip/xsl_files/art.xslt';
+  var family = '../xml_data_files/family.xml',
+    familyHTML = '/em228-ip/html/family.html',
+    familyXSL = '/em228-ip/xsl_files/family.xslt';
+  var movies = '../xml_data_files/movies.xml',
+    moviesHTML = '/em228-ip/html/movies.html',
+    moviesXSL = '/em228-ip/xsl_files/movies.xslt';
+  var music = '../xml_data_files/music.xml',
+    musicHTML = '/em228-ip/html/music.html',
+    musicXSL = '/em228-ip/xsl_files/music.xslt';
+  var verses = '../xml_data_files/verses.xml',
+    versesHTML = '/em228-ip/html/verses.html',
+    versesXSL = '/em228-ip/xsl_files/verses.xslt';
 
+  //** Creating the XMLHttpRequest Object **/
   if (window.XMLHttpRequest) {
     // Code for IE7+, Firefox, Chrome, Opera, Safari
     xmlhttp = new XMLHttpRequest();
@@ -31,11 +45,50 @@ function getDescription() {
     // Code for IE5, IE6
     xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
   }
+
+  //** Determining Path - Art **/
   if (
     window.location.pathname == artHTML ||
     window.location.pathname == artXSL
   ) {
+    //** Creating GET Request for Art XML File **/
     xmlhttp.open('GET', art, false);
+  }
+
+  //** Determining Path - Family **/
+  if (
+    window.location.pathname == familyHTML ||
+    window.location.pathname == familyXSL
+  ) {
+    //** Creating GET Request for Family XML File **/
+    xmlhttp.open('GET', family, false);
+  }
+
+  //** Determining Path - Movies **/
+  if (
+    window.location.pathname == moviesHTML ||
+    window.location.pathname == moviesXSL
+  ) {
+    //** Creating GET Request for Movies XML File **/
+    xmlhttp.open('GET', movies, false);
+  }
+
+  //** Determining Path - Music **/
+  if (
+    window.location.pathname == musicHTML ||
+    window.location.pathname == musicXSL
+  ) {
+    //** Creating GET Request for Music XML File **/
+    xmlhttp.open('GET', music, false);
+  }
+
+  //** Determining Path - Verses **/
+  if (
+    window.location.pathname == versesHTML ||
+    window.location.pathname == versesXSL
+  ) {
+    //** Creating GET Request for Verses XML File **/
+    xmlhttp.open('GET', verses, false);
   }
   xmlhttp.send();
   xmlDoc = xmlhttp.responseXML;
