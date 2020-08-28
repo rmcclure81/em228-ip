@@ -1,14 +1,3 @@
-//** Home **//
-document.write('<div class="dropdown" id="home">');
-document.write(
-  '<button class="btn_dropdown_toggle" type="button" data-toggle="dropdown">'
-);
-document.write(
-  '<a href="https://rmcclure81.github.io/em228-ip/index.html" class="links">Home</a>'
-);
-document.write('</button>');
-document.write('</div>');
-
 //** Week 1 **//
 document.write('<div class="dropdown" id="w1">');
 document.write(
