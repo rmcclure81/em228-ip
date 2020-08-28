@@ -26,14 +26,14 @@ function printTitle() {
     // xmlhttp.send();
     // xmlDoc = xmlhttp.responseXML;
     // document.write('<span>');
-    document.getElementById('title').innerHTML = 'Art Collection';
+    document.getElementById('headingTitle').innerHTML = 'Art Collection';
     // document.write(
     //   'Art Collection'
     //   xmlDoc.getElementsByTagName('description')[0].childNodes[0].nodeValue
     // );
     // document.write('</span>');
   } else {
-    document.getElementById('title').innerHTML = 'Wrong Path';
+    document.getElementById('headingTitle').innerHTML = 'Wrong Path';
   }
   // document.getElementById('title').innerHTML = 'Art Collection';
 
