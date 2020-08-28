@@ -46,44 +46,37 @@ function getDescription() {
     xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
   }
 
-  //** Determining Path - Art **/
+  //** Determining Path **/
   if (
+    //** Determining Path - Art **/
     window.location.pathname == artHTML ||
     window.location.pathname == artXSL
   ) {
     //** Creating GET Request for Art XML File **/
     xmlhttp.open('GET', art, false);
-  }
-
-  //** Determining Path - Family **/
-  if (
+  } else if (
+    //** Determining Path - Family **/
     window.location.pathname == familyHTML ||
     window.location.pathname == familyXSL
   ) {
     //** Creating GET Request for Family XML File **/
     xmlhttp.open('GET', family, false);
-  }
-
-  //** Determining Path - Movies **/
-  if (
+  } else if (
+    //** Determining Path - Movies **/
     window.location.pathname == moviesHTML ||
     window.location.pathname == moviesXSL
   ) {
     //** Creating GET Request for Movies XML File **/
     xmlhttp.open('GET', movies, false);
-  }
-
-  //** Determining Path - Music **/
-  if (
+  } else if (
+    //** Determining Path - Music **/
     window.location.pathname == musicHTML ||
     window.location.pathname == musicXSL
   ) {
     //** Creating GET Request for Music XML File **/
     xmlhttp.open('GET', music, false);
-  }
-
-  //** Determining Path - Verses **/
-  if (
+  } else if (
+    //** Determining Path - Verses **/
     window.location.pathname == versesHTML ||
     window.location.pathname == versesXSL
   ) {
