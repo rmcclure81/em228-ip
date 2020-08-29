@@ -14,8 +14,9 @@
       type="image/ico"
       href="https://rmcclure81.github.io/em228-ip/images/favicon.ico"
     />
+    <script src="../javascript_files/ip3.js"></script>
   </head>
-  <body>
+  <body onload="runScript()">
     <header>
       <div id="heading1">
         <img
@@ -36,5 +37,15 @@
         scripting techniques used to develop reactive webpages.
       </div>
     </div>
+    <footer align="center">
+      <div>
+        <span>URL: </span>
+        <span id="address"></span>
+      </div>
+      <div>
+        <span>Last Modified: </span>
+        <span id="modified"></span>
+      </div>
+    </footer>
   </body>
 </html>
