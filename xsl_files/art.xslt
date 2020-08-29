@@ -33,7 +33,7 @@
                 </div>
 
                 <!-- In Page Links -->
-                <nav class="navbar">
+                <nav class="navbar" id="pageLinks">
                     <a href="#one" class="links">Jump to Display All Records Table</a>
                     <a href="#two" class="links">Jump to Display August Records Table</a>
                     <a href="#three" class="links">Jump to Display Odd Records Table</a>
