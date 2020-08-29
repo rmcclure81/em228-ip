@@ -31,7 +31,7 @@ body {
 
 .container {
   position: relative;
-  /* display: grid; */
+  display: grid;
   text-align: center;
   min-height: 100vh;
 }
