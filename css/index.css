@@ -33,6 +33,7 @@ body {
   position: relative;
   display: block;
   text-align: center;
+  margin: auto;
   min-height: 100vh;
 }
 
