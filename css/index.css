@@ -43,7 +43,7 @@ body {
   font-size: 1.3rem;
   margin: 0 auto;
   text-align: center;
-  width: 30%;
+  /* width: 30%; */
 }
 
 .descriptionHeading {
@@ -74,12 +74,17 @@ body {
 footer {
   background-color: #d3d3d3;
   border-radius: 25px 25px 0 0;
+  color: #008000;
   margin: 0 auto;
-  width: 50%;
+  width: 90%;
 }
 
 header {
   display: grid;
+  background-color: #d3d3d3;
+  border-radius: 0 0 25px 25px;
+  margin: 0 auto;
+  width: 90%;
 }
 
 #heading1 {
@@ -98,7 +103,7 @@ header {
 
 .links {
   text-decoration: none;
-  color: green;
+  color: #008000;
 }
 
 .logo {
