@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet href="../xsl_files/movies.xslt" type="text/xsl" ?>
 
 <movieList>
-    <description>The purpose of this XML file is to display the details of 15 of my favorite movies.</description>
+    <description>MOVIES</description>
     <movie id="01">
         <title>Timeline</title>
         <rating>PG-13</rating>

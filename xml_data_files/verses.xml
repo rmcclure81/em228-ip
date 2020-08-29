@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet href="../xsl_files/verses.xslt" type="text/xsl" ?>
 
 <verseList>
-    <description>The purpose of this XML file is to display 15 inspirational bible verses (there are many more, but I limited myself to 15).</description>
+    <description>BIBLE VERSES</description>
     <verse id="01">
         <book>James</book>
         <chapter>2</chapter>
