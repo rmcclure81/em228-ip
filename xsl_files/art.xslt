@@ -18,12 +18,15 @@
                         </a>
                         <span id="headingTitle"></span>
                     </div>
-                    <div id="navContainer">
-                        <nav class="navbar">
+                    <!-- <div id="navContainer"> -->
+                    <!-- <nav class="navbar">
                             <script src="../javascript_files/nav.js"></script>
-                        </nav>
-                    </div>
+                        </nav> -->
+                    <!-- </div> -->
                 </header>
+                <nav class="navbar">
+                    <script src="../javascript_files/nav.js"></script>
+                </nav>
                 <div class="descriptionContainer">
                     <div class="descriptionHeading">Description:</div>
                     <div></div>
