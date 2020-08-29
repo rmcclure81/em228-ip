@@ -12,9 +12,9 @@ body {
 
 .btn_dropdown_toggle {
   padding: 5px;
-  background-color: #90ee90;
+  background-color: #d3d3d3;
   font-weight: bold;
-  color: green;
+  color: #000000;
   border: none;
   font-size: large;
 }
@@ -107,7 +107,7 @@ header {
 
 .links {
   text-decoration: none;
-  /* color: #008000; */
+  color: #000000;
 }
 
 .logo {
