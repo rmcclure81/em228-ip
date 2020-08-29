@@ -18,10 +18,11 @@
                         </a>
                         <span id="headingTitle"></span>
                     </div>
-
-                    <nav class="navbar">
-                        <script src="../javascript_files/nav.js"></script>
-                    </nav>
+                    <div id="navContainer">
+                        <nav class="navbar">
+                            <script src="../javascript_files/nav.js"></script>
+                        </nav>
+                    </div>
                 </header>
                 <div class="descriptionContainer">
                     <div class="descriptionHeading">Description:</div>

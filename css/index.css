@@ -140,6 +140,10 @@ header {
   font-size: x-large;
 }
 
+#navContainer {
+  display: block;
+}
+
 #pageLinks {
   background-color: #d3d3d3;
   border-radius: 25px;
