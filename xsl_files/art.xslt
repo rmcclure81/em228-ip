@@ -29,7 +29,7 @@
                 </nav>
                 <div class="descriptionContainer">
                     <div class="descriptionHeading">Description:</div>
-                    <div>test</div>
+                    <div></div>
                     <!-- <div id="description">
                       The purpose of this XML file is to display 15 pieces of my daughter's
                       artwork with the titles and dates created.
