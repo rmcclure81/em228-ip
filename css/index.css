@@ -107,7 +107,7 @@ header {
 
 .links {
   text-decoration: none;
-  color: #008000;
+  /* color: #008000; */
 }
 
 .logo {
@@ -141,6 +141,7 @@ header {
 #pageLinks {
   background-color: #d3d3d3;
   border-radius: 25px;
+  font-size: medium;
   padding: 10px 0;
   width: inherit;
 }
