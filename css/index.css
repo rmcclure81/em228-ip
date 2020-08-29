@@ -141,7 +141,7 @@ header {
 }
 
 #navContainer {
-  display: block;
+  display: inline-block;
 }
 
 #pageLinks {
