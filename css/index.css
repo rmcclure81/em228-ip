@@ -30,9 +30,10 @@ body {
 }
 
 .container {
-  display: grid;
+  position: relative;
+  /* display: grid; */
   text-align: center;
-  min-height: max-content;
+  min-height: 100vh;
 }
 
 .descriptionContainer {
@@ -81,6 +82,7 @@ footer {
   color: #000000;
   margin: 0 auto;
   padding: 10px 0;
+  position: absolute;
   width: 90%;
 }
 
