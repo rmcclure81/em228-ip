@@ -5,11 +5,11 @@
         <html>
             <head>
                 <title>Bible Verse Collection</title>
-                <link rel="stylesheet" type="text/css" href="../css/main.css" />
-                <link rel="stylesheet" type="text/css" href="../css/media.css" />
+                <link rel="stylesheet" type="text/css" href="/em228-ip/css/main.css" />
+                <link rel="stylesheet" type="text/css" href="/em228-ip/css/media.css" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <link rel="shortcut icon" type="image/ico" href="../images/favicon.ico" />
-                <script type="text/javascript" src="../javascript_files/ip3.js"></script>
+                <link rel="shortcut icon" type="image/ico" href="/em228-ip/images/favicon.ico" />
+                <script type="text/javascript" src="/em228-ip/javascript_files/ip3.js"></script>
             </head>
             <!--=======  End of Section  ========-->
             <body onload="runScript()">
@@ -17,14 +17,14 @@
                     <div class="content-wrap">
                         <header>
                             <div class="heading">
-                                <a href="../html/index.html">
-                                    <img src="../images/favicon.ico" alt="logo" class="logo" />
+                                <a href="/em228-ip/html/index.html">
+                                    <img src="/em228-ip/images/favicon.ico" alt="logo" class="logo" />
                                 </a>
                                 <span id="headingTitle"></span>
                             </div>
                         </header>
                         <nav class="navbar">
-                            <script src="../javascript_files/nav.js"></script>
+                            <script src="/em228-ip/javascript_files/nav.js"></script>
                         </nav>
                         <main>
                             <div class="DescriptionContainer">
@@ -175,16 +175,6 @@
                             </table>
                         </main>
                     </div>
-                    <footer align="center">
-                        <div>
-                            <span>URL: </span>
-                            <span id="address"></span>
-                        </div>
-                        <div>
-                            <span>Last Modified: </span>
-                            <span id="modified"></span>
-                        </div>
-                    </footer>
                 </div>
             </body>
         </html>

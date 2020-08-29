@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet href="../xsl_files/music.xslt" type="text/xsl" ?>
+<?xml-stylesheet href="/em228-ip/xsl_files/music.xslt" type="text/xsl" ?>
 
 
 <musicList>
-    <description>MUSIC</description>
+    <description>The purpose of this XML file is to display 16 of my favorite songs (there are many more, but I limited myself to 16).</description>
     <song id='01'>
         <title>Love God, Love People</title>
         <artist>Danny Gokey</artist>

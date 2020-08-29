@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet href="../xsl_files/art.xslt" type="text/xsl" ?>
+<?xml-stylesheet href="/em228-ip/xsl_files/art.xslt" type="text/xsl" ?>
 
 <gallery>
-    <description>MY DAUGHTER'S ARTWORK</description>
+    <description>The purpose of this XML file is to display 15 pieces of my daughter's
+        artwork with the titles and dates created.</description>
     <art id="1">
         <image file="../images/Netherlands.jpeg" />
         <orientation>l</orientation>
