@@ -71,7 +71,7 @@ document.write(
 document.write('</div>');
 document.write('</div>');
 
-//** Week 3 - Still Need**//
+//** Week 3 **//
 document.write('<div class="dropdown" id="w3">');
 document.write(
   '<button class="btn_dropdown_toggle" type="button" data-toggle="dropdown">'
@@ -81,14 +81,6 @@ document.write(
 );
 document.write('</button>');
 document.write('<div class="dropdownContent">');
-document.write('');
-document.write('<br /><br />');
-document.write('');
-document.write('<br /><br />');
-document.write('');
-document.write('<br /><br />');
-document.write('');
-document.write('<br /><br />');
 document.write('');
 document.write('</div>');
 document.write('</div>');
@@ -115,7 +107,7 @@ document.write('');
 document.write('</div>');
 document.write('</div>');
 
-//** Week 5 - Still Need **//
+//** Week 5 **//
 document.write('<div class="dropdown" id="w5">');
 document.write(
   '<button class="btn_dropdown_toggle" type="button" data-toggle="dropdown">'
