@@ -9,7 +9,7 @@
                 <link rel="stylesheet" type="text/css" href="/em228-ip/css/media.css" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="shortcut icon" type="image/ico" href="/em228-ip/images/favicon.ico" />
-                <script type="text/javascript" src="/em228-ip/javascript_files/ip3.js"></script>
+                <script type="text/javascript" src="/em228-ip/javascript_files/main.js"></script>
             </head>
             <!--=======  End of Section  ========-->
             <body onload="runScript()">

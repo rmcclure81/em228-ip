@@ -3,6 +3,7 @@ function runScript() {
   getAddress();
   timeModified();
   getDescription();
+  FloatLabel.init();
 }
 
 function printTitle() {
@@ -21,7 +22,8 @@ function timeModified() {
 function getDescription() {
   //** Variable declarations **/
   var home = '/em228-ip/html/index.html',
-    ip3 = '/em228-ip/html/ip3.html';
+    ip3 = '/em228-ip/html/ip3.html',
+    form = '/em228-ip/html/form.html';
   var art = '/em228-ip/xml_data_files/art-plain.xml',
     artHTML = '/em228-ip/html/art.html',
     artXSL = '/em228-ip/xml_data_files/art.xml';
@@ -38,7 +40,11 @@ function getDescription() {
     versesHTML = '/em228-ip/html/verses.html',
     versesXSL = '/em228-ip/xml_data_files/verses.xml';
 
-  if (window.location.pathname != home && window.location.pathname != ip3) {
+  if (
+    window.location.pathname != home &&
+    window.location.pathname != ip3 &&
+    window.location.pathname != form
+  ) {
     //** Creating the XMLHttpRequest Object **/
     if (window.XMLHttpRequest) {
       // Code for IE7+, Firefox, Chrome, Opera, Safari
@@ -123,3 +129,62 @@ function readFile() {
 
   text.send();
 }
+
+const FloatLabel = (() => {
+  // add active class
+  const handleFocus = (e) => {
+    const target = e.target;
+    target.parentNode.classList.add('active');
+    target.setAttribute('placeholder', target.getAttribute('data-placeholder'));
+  };
+
+  // remove active class
+  const handleBlur = (e) => {
+    const target = e.target;
+    if (!target.value) {
+      target.parentNode.classList.remove('active');
+    }
+    target.removeAttribute('placeholder');
+  };
+
+  // register events
+  const bindEvents1 = (element) => {
+    const message = element.querySelector('textarea');
+    message.addEventListener('focus', handleFocus);
+    message.addEventListener('blur', handleBlur);
+  };
+
+  const bindEvents2 = (element) => {
+    const names = element.querySelector('input');
+    names.addEventListener('focus', handleFocus);
+    names.addEventListener('blur', handleBlur);
+  };
+
+  // get DOM elements
+  const init = () => {
+    const textareaContainer = document.querySelectorAll('.textarea-container');
+    const nameContainer = document.querySelectorAll('.input-container');
+
+    textareaContainer.forEach((element) => {
+      if (element.querySelector('textarea').value) {
+        element.classList.add('active');
+      }
+
+      bindEvents1(element);
+    });
+
+    nameContainer.forEach((element) => {
+      if (element.querySelector('input').value) {
+        element.classList.add('active');
+      }
+
+      bindEvents2(element);
+    });
+  };
+
+  return {
+    init: init,
+  };
+})();
+
+FloatLabel.init();

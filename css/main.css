@@ -15,6 +15,13 @@ body {
   font-size: medium;
 }
 
+#buttonContainer input {
+  background-color: lightblue;
+  margin: 10px;
+  padding: 5px;
+  width: 150px;
+}
+
 .caret {
   font-size: small;
 }
@@ -23,6 +30,10 @@ body {
   margin-bottom: 3rem;
   font-weight: bold;
   font-size: larger;
+}
+
+#city {
+  width: 150px;
 }
 
 .container {
@@ -34,17 +45,29 @@ body {
   padding-bottom: 2.5rem;
 }
 
+/* #date {
+  width: 327px;
+} */
+
+#dateContainer {
+  display: flex;
+  justify-content: center;
+}
+
 #description {
   color: #ffffff;
   font-size: 1.3rem;
   margin: 0 auto;
   text-align: center;
+  width: 40%;
 }
 
 .descriptionContainer {
   display: block;
   text-align: center;
+  margin: auto;
   padding-top: 10px;
+  width: 40%;
 }
 
 .descriptionHeading {
@@ -70,6 +93,19 @@ body {
   background-color: #d3d3d3;
 }
 
+#email {
+  width: 327px;
+}
+
+#emailContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#firstName {
+  width: 150px;
+}
+
 footer {
   background-color: #d3d3d3;
   border-radius: 25px 25px 0 0;
@@ -82,6 +118,14 @@ footer {
   position: absolute;
   right: 0;
   width: 90%;
+}
+
+.formContainer {
+  background-color: #d3d3d3;
+  border-radius: 25px;
+  margin: 30px auto 50px auto;
+  padding: 20px;
+  width: 25%;
 }
 
 header {
@@ -114,17 +158,74 @@ header {
   grid-column: 1;
 }
 
+input {
+  border: 1px solid #000000;
+  margin: 5px;
+  padding: 5px;
+}
+
+.input-container {
+  padding: 0 8px;
+  position: relative;
+}
+
+.input-container input {
+  border: none;
+  font-size: 16px;
+  outline: 0;
+  padding: 16px 0 10px;
+}
+
+.input-container input:focus {
+  padding: 16px 10px 10px;
+}
+
+.input-container label {
+  font-size: 16px;
+  position: absolute;
+  transform: translate(10px, 16px) scale(1);
+  transform-origin: top left;
+  transition: all 0.1s ease-in-out;
+}
+
+.input-container.active label {
+  transform: translate(10px, 0) scale(0.75);
+  color: blue;
+}
+
+label {
+  color: #000000;
+}
+
+#lastName {
+  width: 150px;
+}
+
 .links {
   text-decoration: none;
   color: #000000;
   width: 100%;
 }
 
+#locationContainer {
+  display: flex;
+  justify-content: center;
+}
+
 .logo {
   display: inline;
   margin-right: 3rem;
-  /* margin-left: -9rem; */
   border-radius: 25%;
+}
+
+#message {
+  width: 327px;
+  height: 150px;
+}
+
+#nameContainer {
+  display: flex;
+  justify-content: center;
 }
 
 .navbar {
@@ -139,6 +240,10 @@ header {
   font-size: x-large;
 }
 
+output {
+  color: #000000;
+}
+
 #pageLinks {
   background-color: #d3d3d3;
   border-radius: 25px;
@@ -148,12 +253,51 @@ header {
   width: 40%;
 }
 
+#state {
+  width: 150px;
+}
+
 table {
   white-space: nowrap;
 }
 
 td {
   padding: 10px 20px;
+}
+
+textarea {
+  border: 1px solid #000000;
+  margin: 5px;
+  padding: 5px;
+}
+
+.textarea-container {
+  padding: 0 8px;
+  position: relative;
+}
+
+.textarea-container textarea {
+  border: none;
+  font-size: 16px;
+  outline: 0;
+  padding: 16px 0 10px;
+}
+
+.textarea-container textarea:focus {
+  padding: 16px 10px 10px;
+}
+
+.textarea-container label {
+  font-size: 16px;
+  position: absolute;
+  transform: translate(10px, 16px) scale(1);
+  transform-origin: top left;
+  transition: all 0.1s ease-in-out;
+}
+
+.textarea-container.active label {
+  transform: translate(10px, 0) scale(0.75);
+  color: blue;
 }
 
 #text-data {

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>My Collections</title>
+    <link rel="stylesheet" type="text/css" href="/em228-ip/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/em228-ip/css/media.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      type="image/ico"
+      href="/em228-ip/images/favicon.ico"
+    />
+    <script
+      type="text/javascript"
+      src="/em228-ip/javascript_files/main.js"
+    ></script>
+  </head>
+  <!--=======  End of Section  ========-->
+  <body onload="runScript()">
+    <div class="container">
+      <div class="content-wrap">
+        <header>
+          <div class="heading">
+            <a href="/em228-ip/html/index.html"
+              ><img src="/em228-ip/images/favicon.ico" alt="logo" class="logo"
+            /></a>
+            <span id="headingTitle"></span>
+          </div>
+        </header>
+        <nav class="navbar">
+          <script src="/em228-ip/javascript_files/nav.js"></script>
+        </nav>
+        <main>
+          <div class="DescriptionContainer">
+            <div class="descriptionHeading">Description:</div>
+            <div id="description">
+              The purpose of this page is to display a form that allows the data
+              to enter information about themselves. It will give them the
+              option to send the data to me by email using their local email
+              client or cancel the form submission. If the email is sent, the
+              function then closes the blank tab created to send the email.
+            </div>
+          </div>
+          <!--=======  START OF FORM  ========-->
+          <div align="center" class="formContainer">
+            <form id="userForm" name="myForm" onsubmit="return false">
+              <div id="nameContainer">
+                <div class="input-container">
+                  <label for="firstName">First Name</label>
+                  <input
+                    type="text"
+                    id="firstName"
+                    name="firstName"
+                    data-placeholder=""
+                    required
+                  />
+                </div>
+                <div class="input-container">
+                  <label for="lastName">Last Name</label>
+                  <input
+                    type="text"
+                    id="lastName"
+                    name="lastName"
+                    data-placeholder=""
+                    required
+                  />
+                </div>
+              </div>
+              <div id="emailContainer">
+                <div class="input-container">
+                  <label for="email">Email</label>
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    data-placeholder=""
+                    required
+                  />
+                </div>
+              </div>
+              <div id="locationContainer">
+                <div class="input-container">
+                  <label for="city">City</label>
+                  <input
+                    type="text"
+                    id="city"
+                    name="city"
+                    data-placeholder=""
+                    required
+                  />
+                </div>
+                <div class="input-container">
+                  <label for="state">State</label>
+                  <input
+                    type="text"
+                    id="state"
+                    name="state"
+                    data-placeholder=""
+                    required
+                  />
+                </div>
+              </div>
+              <div id="dateContainer">
+                <output id="date"></output>
+              </div>
+              <div id="textareaContainer" class="textarea-container">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="comment"
+                  form="userForm"
+                  data-placeholder="Tell Me About Yourself..."
+                  required
+                ></textarea>
+              </div>
+              <div id="buttonContainer">
+                <input type="reset" value="Clear" onclick="clearForm()" />
+                <input
+                  type="submit"
+                  id="submit"
+                  value="Submit"
+                  onclick="submitForm()"
+                />
+              </div>
+            </form>
+          </div>
+        </main>
+      </div>
+      <footer align="center">
+        <div>
+          <span>URL: </span>
+          <span id="address"></span>
+        </div>
+        <div>
+          <span>Last Modified: </span>
+          <span id="modified"></span>
+        </div>
+      </footer>
+    </div>
+    <script type="text/javascript">
+      function submitForm() {
+        displayDate();
+        validateForm();
+      }
+
+      function displayDate() {
+        var date = String(new Date());
+        document.getElementById('date').innerHTML = date.substring(0, 21);
+      }
+
+      function clearForm() {
+        var form = document.getElementById('userForm');
+        document.getElementById('date').innerHTML = '';
+        form.reset();
+        location.reload();
+      }
+
+      function sendEmail() {
+        var win = window.open(
+          'mailto:r.mcclure11@my.denver.coloradotech.edu?subject=Form Submission: ' +
+            encodeURIComponent(document.getElementById('firstName').value) +
+            ' ' +
+            encodeURIComponent(document.getElementById('lastName').value) +
+            ' (' +
+            encodeURIComponent(document.getElementById('city').value) +
+            ', ' +
+            encodeURIComponent(document.getElementById('state').value) +
+            ')&body=' +
+            encodeURIComponent(document.getElementById('message').value)
+        );
+
+        win.close();
+      }
+
+      function confirmEmail() {
+        var choice = confirm(
+          ' Would you like to open your email client to submit form data?'
+        );
+        if (choice == true) {
+          sendEmail();
+        } else {
+          alert(
+            'You have decided not to submit the form.\nThe form data has been erased.'
+          );
+        }
+        var form = document.getElementById('userForm');
+        form.reset();
+        location.reload();
+      }
+
+      function confirmData() {
+        var choice = confirm('Is all the data entered correct?');
+        if (choice == true) {
+          confirmEmail();
+          return true;
+        } else {
+          alert('Please re-enter incorrect data.');
+        }
+      }
+
+      function validateForm() {
+        var fName = document.forms['userForm']['firstName'].value,
+          lName = document.forms['userForm']['lastName'].value,
+          email = document.forms['userForm']['email'].value,
+          city = document.forms['userForm']['city'].value,
+          state = document.forms['userForm']['state'].value,
+          date = document.forms['userForm']['date'].value,
+          message = document.forms['userForm']['message'].value;
+
+        if (!fName) {
+          return false;
+        } else if (!lName) {
+          return false;
+        } else if (!email) {
+          // alert('First Name Cannot be Blank!!');
+          return false;
+        } else if (!city) {
+          return false;
+        } else if (!state) {
+          return false;
+        } else if (!date) {
+          // alert('First Name Cannot be Blank!!');
+          return false;
+        } else if (!message) {
+          return false;
+        }
+        if (
+          /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(
+            userForm.email.value
+          )
+        ) {
+          confirmData();
+          return true;
+        }
+        alert('You have entered an invalid email address!');
+        return false;
+      }
+    </script>
+  </body>
+</html>

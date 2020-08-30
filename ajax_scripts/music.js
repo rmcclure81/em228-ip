@@ -6,7 +6,7 @@ if (window.XMLHttpRequest) {
   xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
 }
 
-xmlhttp.open('GET', '/em228-ip/xml_data_files/music.xml', false);
+xmlhttp.open('GET', '../xml_data_files/music.xml', false);
 xmlhttp.send();
 xmlDoc = xmlhttp.responseXML;
 document.write(

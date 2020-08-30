@@ -71,7 +71,7 @@ document.write(
 document.write('</div>');
 document.write('</div>');
 
-//** Week 3 - Still Need**//
+//** Week 3 **//
 document.write('<div class="dropdown" id="w3">');
 document.write(
   '<button class="btn_dropdown_toggle" type="button" data-toggle="dropdown">'
@@ -91,7 +91,7 @@ document.write(
 document.write('</div>');
 document.write('</div>');
 
-//** Week 4 - Still Need **//
+//** Week 4 **//
 document.write('<div class="dropdown" id="w4">');
 document.write(
   '<button class="btn_dropdown_toggle" type="button" data-toggle="dropdown">'
@@ -101,15 +101,7 @@ document.write(
 );
 document.write('</button>');
 document.write('<div class="dropdownContent">');
-document.write('');
-document.write('<br /><br />');
-document.write('');
-document.write('<br /><br />');
-document.write('');
-document.write('<br /><br />');
-document.write('');
-document.write('<br /><br />');
-document.write('');
+document.write('<a href="/em228-ip/html/form.html" class="links">Form</a>');
 document.write('</div>');
 document.write('</div>');
 

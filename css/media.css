@@ -1,18 +1,56 @@
 @media screen and (max-width: 1200px) {
+  #buttonContainer input {
+    border-radius: 25px;
+    margin: 10px auto 0 auto;
+    width: 80%;
+  }
+
+  #city {
+    border-radius: 25px;
+    width: 100%;
+  }
+
+  #date {
+    border-radius: 25px;
+    width: 100%;
+  }
+
+  #dateContainer {
+    display: block;
+  }
+
   #description {
-    max-width: 90%;
+    width: 90%;
   }
 
   .descriptionContainer {
     margin: auto;
-    max-width: 90%;
+    width: 90%;
   }
   .dropdownContent {
     position: relative;
   }
 
+  #email {
+    border-radius: 25px;
+    width: 100%;
+  }
+
+  #emailContainer {
+    display: block;
+  }
+
+  #firstName {
+    border-radius: 25px;
+    width: 100%;
+  }
+
   footer {
     display: none;
+  }
+
+  .formContainer {
+    width: 50%;
   }
 
   #headingTitle {
@@ -25,16 +63,54 @@
     width: 100%;
   }
 
+  .input-container input:focus {
+    padding: 16px 20px 10px;
+  }
+
+  .input-container.active label {
+    transform: translate(25px, 0) scale(0.75);
+  }
+
+  #lastName {
+    border-radius: 25px;
+    width: 100%;
+  }
+  #locationContainer {
+    display: block;
+  }
+
   .logo {
     display: none;
+  }
+
+  #message {
+    border-radius: 25px;
+    width: 100%;
   }
 
   #pageLinks {
     width: 90%;
   }
 
+  .textarea-container textarea:focus {
+    padding: 16px 20px 10px;
+  }
+
+  .textarea-container.active label {
+    transform: translate(25px, 0) scale(0.75);
+  }
+
+  #nameContainer {
+    display: block;
+  }
+
   .navbar {
     display: block;
+  }
+
+  #state {
+    border-radius: 25px;
+    width: 100%;
   }
 
   table {
