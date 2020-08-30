@@ -77,7 +77,7 @@ document.write(
   '<button class="btn_dropdown_toggle" type="button" data-toggle="dropdown">'
 );
 document.write(
-  '<span>Week #3<br /> (JavaScript Files) &nbsp;<span class="caret">▼</span></span>'
+  '<span>Week #3<br /> (JavaScript DOM Scripts) &nbsp;<span class="caret">▼</span></span>'
 );
 document.write('</button>');
 document.write('<div class="dropdownContent">');
@@ -97,7 +97,7 @@ document.write(
   '<button class="btn_dropdown_toggle" type="button" data-toggle="dropdown">'
 );
 document.write(
-  '<span>Week #4<br /> (JavaScript DOM Scripts) &nbsp;<span class="caret">▼</span></span>'
+  '<span>Week #4<br /> (JavaScript Files) &nbsp;<span class="caret">▼</span></span>'
 );
 document.write('</button>');
 document.write('<div class="dropdownContent">');
