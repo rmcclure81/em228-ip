@@ -1,5 +1,4 @@
-<font color="white"><b><u>INDIVIDUAL PROJECT 3: REQUIREMENTS</u></b></font><br />
-<br />
+<p align="center" style="color:white;"><b><u>INDIVIDUAL PROJECT 3: REQUIREMENTS</u></b></p><br />
 Write a JavaScript that returns (and writes) the title of one of the Web pages somewhere on that page.
     <ul style="color:white">
     <li>Each webpage (including this one) calls a script that I wrote that takes what is written in the title element and write it into the webpage as the header.</li>
