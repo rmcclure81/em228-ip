@@ -6,25 +6,27 @@ if (window.XMLHttpRequest) {
   xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
 }
 
-xmlhttp.open('GET', '../xml_data_files/family.xml', false);
+xmlhttp.open('GET', '/em228-ip/xml_data_files/family.xml', false);
 xmlhttp.send();
 xmlDoc = xmlhttp.responseXML;
-document.write('<table border="1" bgcolor="lightgrey">');
-document.write('<tr>');
 document.write(
-  '<td style="white-space:nowrap;padding:10px;text-align:center;font-weight:bold;" bgcolor="white">First Name</td>'
+  '<table border="1" align="center" bgcolor="#ffffff" style="color:black;margin-top:25px;margin-bottom:50px;">'
+);
+document.write('<tr style="background-color:#d3d3d3;">');
+document.write(
+  '<td style="white-space:nowrap;padding:10px;text-align:center;font-weight:bold;">First Name</td>'
 );
 document.write(
-  '<td style="white-space:nowrap;padding:10px;text-align:center;font-weight:bold;" bgcolor="white">Last Name</td>'
+  '<td style="white-space:nowrap;padding:10px;text-align:center;font-weight:bold;">Last Name</td>'
 );
 document.write(
-  '<td style="white-space:nowrap;padding:10px;text-align:center;font-weight:bold;" bgcolor="white">Relationship</td>'
+  '<td style="white-space:nowrap;padding:10px;text-align:center;font-weight:bold;">Relationship</td>'
 );
 document.write(
-  '<td style="white-space:nowrap;padding:10px;text-align:center;font-weight:bold;" bgcolor="white">Gender</td>'
+  '<td style="white-space:nowrap;padding:10px;text-align:center;font-weight:bold;">Gender</td>'
 );
 document.write(
-  '<td style="white-space:nowrap;padding:10px;text-align:center;font-weight:bold;" bgcolor="white">Age</td>'
+  '<td style="white-space:nowrap;padding:10px;text-align:center;font-weight:bold;">Age</td>'
 );
 document.write('</tr>');
 var x = xmlDoc.getElementsByTagName('person');

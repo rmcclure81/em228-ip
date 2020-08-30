@@ -6,22 +6,24 @@ if (window.XMLHttpRequest) {
   xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
 }
 
-xmlhttp.open('GET', '../xml_data_files/verses.xml', false);
+xmlhttp.open('GET', '/em228-ip/xml_data_files/verses.xml', false);
 xmlhttp.send();
 xmlDoc = xmlhttp.responseXML;
-document.write('<table border="1" bgcolor="lightgrey">');
-document.write('<tr>');
 document.write(
-  '<td style="white-space:nowrap;padding:10px;text-align:center;font-weight:bold;" bgcolor="white">Book</td>'
+  '<table border="1" align="center" bgcolor="#ffffff" style="color:black;margin-top:25px;margin-bottom:50px;max-width:90%;">'
+);
+document.write('<tr style="background-color:#d3d3d3;">');
+document.write(
+  '<td style="white-space:nowrap;padding:10px;text-align:center;font-weight:bold;">Book</td>'
 );
 document.write(
-  '<td style="white-space:nowrap;padding:10px;text-align:center;font-weight:bold;" bgcolor="white">Chapter</td>'
+  '<td style="white-space:nowrap;padding:10px;text-align:center;font-weight:bold;">Chapter</td>'
 );
 document.write(
-  '<td style="white-space:nowrap;padding:10px;text-align:center;font-weight:bold;" bgcolor="white">Verse No.</td>'
+  '<td style="white-space:nowrap;padding:10px;text-align:center;font-weight:bold;">Verse No.</td>'
 );
 document.write(
-  '<td style="white-space:nowrap;padding:10px;font-weight:bold;" bgcolor="white">Verse</td>'
+  '<td style="white-space:nowrap;padding:10px;font-weight:bold;">Verse</td>'
 );
 document.write('</tr>');
 
@@ -47,7 +49,9 @@ for (i = 0; i < x.length; i++) {
     x[i].getElementsByTagName('verses')[0].childNodes[0].nodeValue
   );
   document.write('</td>');
-  document.write('<td style="padding:10px;text-align:left;" bgcolor="white">');
+  document.write(
+    '<td style="padding:10px;text-align:left;white-space:normal;" bgcolor="white">'
+  );
   document.write(x[i].getElementsByTagName('data')[0].childNodes[0].nodeValue);
   document.write('</td>');
   document.write('</tr>');

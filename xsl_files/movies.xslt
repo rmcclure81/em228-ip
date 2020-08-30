@@ -24,7 +24,7 @@
                             </div>
                         </header>
                         <nav class="navbar">
-                            <script src="../javascript_files/nav.js"></script>
+                            <script src="/em228-ip/javascript_files/nav.js"></script>
                         </nav>
                         <main>
                             <div class="DescriptionContainer">
@@ -231,6 +231,16 @@
                             </table>
                         </main>
                     </div>
+                    <footer align="center">
+                        <div>
+                            <span>URL: </span>
+                            <span id="address"></span>
+                        </div>
+                        <div>
+                            <span>Last Modified: </span>
+                            <span id="modified"></span>
+                        </div>
+                    </footer>
                 </div>
             </body>
         </html>

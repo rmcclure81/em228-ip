@@ -3,7 +3,6 @@ body {
   color: #ffffff;
   margin: 0;
   overflow-x: hidden;
-  /* overflow-y: scroll; */
   padding: 0;
 }
 
@@ -85,10 +84,6 @@ footer {
   width: 90%;
 }
 
-/* .footerContent {
-  margin: auto;
-} */
-
 header {
   display: grid;
   background-color: #d3d3d3;
@@ -159,6 +154,13 @@ table {
 
 td {
   padding: 10px 20px;
+}
+
+#text-data {
+  color: yellow;
+  font-size: x-large;
+  margin: 40px auto;
+  width: 50%;
 }
 
 .update {

@@ -1,5 +1,7 @@
 function runScript() {
   printTitle();
+  getAddress();
+  timeModified();
   getDescription();
 }
 
@@ -7,9 +9,19 @@ function printTitle() {
   document.getElementById('headingTitle').innerHTML = document.title;
 }
 
+function getAddress() {
+  document.getElementById('address').innerHTML = document.URL;
+}
+
+function timeModified() {
+  var x = String(new Date(document.lastModified));
+  document.getElementById('modified').innerHTML = x.substring(0, 21);
+}
+
 function getDescription() {
   //** Variable declarations **/
-  var home = '/em228-ip/html/index.html';
+  var home = '/em228-ip/html/index.html',
+    ip3 = '/em228-ip/html/ip3.html';
   var art = '/em228-ip/xml_data_files/art-plain.xml',
     artHTML = '/em228-ip/html/art.html',
     artXSL = '/em228-ip/xml_data_files/art.xml';
@@ -26,7 +38,7 @@ function getDescription() {
     versesHTML = '/em228-ip/html/verses.html',
     versesXSL = '/em228-ip/xml_data_files/verses.xml';
 
-  if (window.location.pathname != home) {
+  if (window.location.pathname != home && window.location.pathname != ip3) {
     //** Creating the XMLHttpRequest Object **/
     if (window.XMLHttpRequest) {
       // Code for IE7+, Firefox, Chrome, Opera, Safari
@@ -92,8 +104,22 @@ function getDescription() {
 
 function updateAlert() {
   if (window.innerWidth <= 1200) {
-    alert('New Updates:\nResponsive Design for Smaller Screens.');
+    alert(
+      'New Updates:\nResponsive Design for Smaller Screens.\nRemoved Footer & Logo for Smaller Screens.'
+    );
   } else {
-    alert('New Updates:\n   - Responsive Design for Smaller Screens.');
+    alert(
+      'New Updates:\n   - Responsive Design for Smaller Screens.\n   - Removed Footer & Logo for Smaller Screens.'
+    );
   }
+}
+
+function readFile() {
+  var text = new XMLHttpRequest();
+  text.open('GET', '/em228-ip/text_files/ip3.txt');
+  text.onreadystatechange = function () {
+    document.getElementById('text-data').innerHTML = text.responseText;
+  };
+
+  text.send();
 }

@@ -1,4 +1,8 @@
 @media screen and (max-width: 1200px) {
+  #description {
+    max-width: 90%;
+  }
+
   .descriptionContainer {
     margin: auto;
     max-width: 90%;
@@ -40,6 +44,13 @@
 
   td {
     padding: 10px;
+  }
+
+  #text-data {
+    color: yellow;
+    font-size: medium;
+    margin: 40px auto 0 auto;
+    width: 90%;
   }
 
   #w1 {

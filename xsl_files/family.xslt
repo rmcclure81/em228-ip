@@ -188,6 +188,16 @@
                             </table>
                         </main>
                     </div>
+                    <footer align="center">
+                        <div>
+                            <span>URL: </span>
+                            <span id="address"></span>
+                        </div>
+                        <div>
+                            <span>Last Modified: </span>
+                            <span id="modified"></span>
+                        </div>
+                    </footer>
                 </div>
             </body>
         </html>

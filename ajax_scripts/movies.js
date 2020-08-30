@@ -6,54 +6,56 @@ if (window.XMLHttpRequest) {
   xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
 }
 
-xmlhttp.open('GET', '../xml_data_files/movies.xml', false);
+xmlhttp.open('GET', '/em228-ip/xml_data_files/movies.xml', false);
 xmlhttp.send();
 xmlDoc = xmlhttp.responseXML;
-document.write('<table border="1" bgcolor="lightgrey">');
-document.write('<tr>');
 document.write(
-  '<td style="padding:10px;text-align:center;font-weight:bold;" bgcolor="white">Title</td>'
+  '<table border="1" align="center" bgcolor="#ffffff" style="color:black;margin-top:25px;margin-bottom:50px;max-width:90%;">'
+);
+document.write('<tr style="background-color:#d3d3d3;">');
+document.write(
+  '<td style="padding:10px;text-align:center;font-weight:bold;">Title</td>'
 );
 document.write(
-  '<td style="padding:10px;text-align:center;font-weight:bold;" bgcolor="white">Rating</td>'
+  '<td style="padding:10px;text-align:center;font-weight:bold;">Rating</td>'
 );
 document.write(
-  '<td style="padding:10px;text-align:center;font-weight:bold;" bgcolor="white">Runtime</td>'
+  '<td style="padding:10px;text-align:center;font-weight:bold;">Runtime</td>'
 );
 document.write(
-  '<td style="padding:10px;text-align:center;font-weight:bold;" bgcolor="white">Release Date</td>'
+  '<td style="padding:10px;text-align:center;font-weight:bold;">Release Date</td>'
 );
 document.write(
-  '<td style="padding:10px;text-align:center;font-weight:bold;" bgcolor="white">Genre</td>'
+  '<td style="padding:10px;text-align:center;font-weight:bold;">Genre</td>'
 );
 document.write(
-  '<td style="padding:10px;text-align:center;font-weight:bold;" bgcolor="white">Plot Summary</td>'
+  '<td style="padding:10px;text-align:center;font-weight:bold;">Plot Summary</td>'
 );
 document.write('</tr>');
 var x = xmlDoc.getElementsByTagName('movie');
 for (i = 0; i < x.length; i++) {
   document.write('<tr>');
   document.write(
-    '<td style="white-space:nowrap;padding:10px;" bgcolor="white">'
+    '<td style="text-align:center;padding:10px;" bgcolor="white">'
   );
   document.write(x[i].getElementsByTagName('title')[0].childNodes[0].nodeValue);
   document.write('</td>');
   document.write(
-    '<td style="white-space:nowrap;padding:10px;text-align:center;" bgcolor="white">'
+    '<td style="padding:10px;text-align:center;" bgcolor="white">'
   );
   document.write(
     x[i].getElementsByTagName('rating')[0].childNodes[0].nodeValue
   );
   document.write('</td>');
   document.write(
-    '<td style="white-space:nowrap;padding:10px;text-align:center;" bgcolor="white">'
+    '<td style="padding:10px;text-align:center;" bgcolor="white">'
   );
   document.write(
     x[i].getElementsByTagName('runtime')[0].childNodes[0].nodeValue
   );
   document.write('</td>');
   document.write(
-    '<td style="white-space:nowrap;padding:10px;text-align:center;" bgcolor="white">'
+    '<td style="padding:10px;text-align:center;" bgcolor="white">'
   );
   document.write(
     x[i].getElementsByTagName('month')[0].childNodes[0].nodeValue +
@@ -73,7 +75,9 @@ for (i = 0; i < x.length; i++) {
     );
   }
   document.write('</td>');
-  document.write('<td style="padding:10px;text-align:left;" bgcolor="white">');
+  document.write(
+    '<td style="white-space:normal;padding:10px;text-align:left;" bgcolor="white">'
+  );
   document.write(x[i].getElementsByTagName('plot')[0].childNodes[0].nodeValue);
   document.write('</td>');
   document.write('</tr>');

@@ -71,7 +71,7 @@ document.write(
 document.write('</div>');
 document.write('</div>');
 
-//** Week 3 **//
+//** Week 3 - Still Need**//
 document.write('<div class="dropdown" id="w3">');
 document.write(
   '<button class="btn_dropdown_toggle" type="button" data-toggle="dropdown">'
@@ -81,7 +81,13 @@ document.write(
 );
 document.write('</button>');
 document.write('<div class="dropdownContent">');
-document.write('');
+document.write(
+  '<a href="/em228-ip/html/ip3.html" class="links">Individual Project 3 Requirements</a>'
+);
+document.write('<br /><br />');
+document.write(
+  '<a href="/em228-ip/text_files/ip3.txt" target="_blank" class="links">View Text File</a>'
+);
 document.write('</div>');
 document.write('</div>');
 
@@ -117,14 +123,24 @@ document.write(
 );
 document.write('</button>');
 document.write('<div class="dropdownContent">');
-document.write('');
+document.write(
+  '<a href="/em228-ip/html/art.html" class="links">Art Collection</a>'
+);
 document.write('<br /><br />');
-document.write('');
+document.write(
+  '<a href="/em228-ip/html/verses.html" class="links">Bible Verses Collection</a>'
+);
 document.write('<br /><br />');
-document.write('');
+document.write(
+  '<a href="/em228-ip/html/family.html" class="links">Family Collection</a>'
+);
 document.write('<br /><br />');
-document.write('');
+document.write(
+  '<a href="/em228-ip/html/movies.html" class="links">Movie Collection</a>'
+);
 document.write('<br /><br />');
-document.write('');
+document.write(
+  '<a href="/em228-ip/html/music.html" class="links">Music Collection</a>'
+);
 document.write('</div>');
 document.write('</div>');
