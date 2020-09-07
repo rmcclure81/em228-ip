@@ -77,6 +77,19 @@ body {
   text-align: center;
 }
 
+.dot {
+  height: 5px;
+  width: 5px;
+  margin: 0 2px;
+  background-color: transparent;
+  border-color: #ddd;
+  border-width: 5 px;
+  border-style: solid;
+  border-radius: 50%;
+  display: inline-block;
+  transition: border-color 0.6s ease;
+}
+
 .dropdown:hover .dropdownContent {
   display: block;
 }
@@ -156,6 +169,22 @@ header {
   border-radius: 0 0 25px 25px;
   display: none;
   grid-column: 1;
+}
+
+.image-sliderfade {
+  display: inline-block;
+}
+
+.imgContainer {
+  position: relative;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.imgSlider {
+  vertical-align: middle;
+  width: 250px;
+  height: 250px;
 }
 
 input {
@@ -344,4 +373,41 @@ textarea {
   background-color: #d3d3d3;
   border-radius: 0 0 25px 25px;
   grid-column: 5;
+}
+
+.active {
+  border-color: #666;
+}
+
+/* Animation */
+.fade {
+  -webkit-animation-name: fade-image;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade-image;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade-image {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-image {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
 }

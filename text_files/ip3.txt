@@ -17,5 +17,6 @@ Write 3 more useful JavaScripts that refer to the JavaScript Document Object Mod
     <ol style="color:white">
     <li>Each collection page (whether HTML or XSL) calls a script that I wrote that determines what collection is being viewed, determines the corresponding XML document, creates a new SPAN element, and displays the information in the DESCRIPTION element of the proper XML document in the description section of the page.</li><br />
     <li>The index page has a button to view updates made to this site. When clicked it calls a function that I wrote to display an alert that lists the key updates made to this site.</li><br />
-    <li>You are reading the third script. This information is written on a .txt document. I wrote a function that loads this data into the page that you are currently on. A few HTML tags were thrown into the document just for a little formatting. This assignment was more fun than I thought it would be.</li>
+    <li>The third script adds an Image Carousel to the Home Page that displays four different pictures that my daughter drew in a revolving carousel.</li><br />
+    <li>You are reading the fourth script. This information is written on a .txt document. I wrote a function that loads this data into the page that you are currently on. A few HTML tags were thrown into the document just for a little formatting. This assignment was more fun than I thought it would be.</li>
     </ol>
